@@ -320,7 +320,7 @@
         <!--Hum Rights Resources View Controller-->
         <scene sceneID="6sj-tl-42t">
             <objects>
-                <viewController id="S0o-SF-stI" customClass="HumRightsResourcesViewController" customModule="Voices_for_Change" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="S0o-SF-stI" customClass="HumRightsResourcesViewController" customModule="Voices_for_Change" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sa9-ue-LWg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -409,18 +409,38 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baw-D2-Sgh">
-                                <rect key="frame" x="39" y="295" width="46" height="30"/>
+                                <rect key="frame" x="39" y="275" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="allYouNeedToKnow:" destination="S0o-SF-stI" eventType="touchUpInside" id="HFR-Vi-Awh"/>
                                 </connections>
                             </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vBZ-6f-xcV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YIh-JJ-1eI">
+                                        <rect key="frame" x="0.0" y="-35" width="414" height="885"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="YIh-JJ-1eI" firstAttribute="top" secondItem="vBZ-6f-xcV" secondAttribute="top" id="P7T-GH-VbT"/>
+                                    <constraint firstAttribute="bottom" secondItem="YIh-JJ-1eI" secondAttribute="bottom" id="sip-sW-P0N"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Hzi-7s-Cuu"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="1BB-Vd-ayE"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vBZ-6f-xcV" firstAttribute="top" secondItem="szW-zo-V2A" secondAttribute="top" id="LWF-4d-FCE"/>
+                            <constraint firstAttribute="bottom" secondItem="vBZ-6f-xcV" secondAttribute="bottom" id="VZB-Zh-UhY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="szW-zo-V2A"/>
                     </view>
                     <navigationItem key="navigationItem" id="iv4-uU-Zry"/>
+                    <size key="freeformSize" width="414" height="896"/>
                     <connections>
                         <outlet property="InstaDivider" destination="UkS-Ea-cyc" id="cek-kt-If1"/>
                         <outlet property="articleDivider" destination="b5h-7A-95G" id="PPc-bu-2NP"/>
@@ -434,7 +454,35 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fzB-0P-KuE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2583" y="-263"/>
+            <point key="canvasLocation" x="2582.608695652174" y="-263.16964285714283"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lkZ-Bt-A1Z">
+            <objects>
+                <viewController id="msf-3M-goi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="md6-JM-gfH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Us7-v3-I52">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="zAE-kh-RSD"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="erb-1C-nLi"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Us7-v3-I52" firstAttribute="bottom" secondItem="I8N-u1-LeU" secondAttribute="bottom" id="18z-pz-4eo"/>
+                            <constraint firstItem="Us7-v3-I52" firstAttribute="top" secondItem="I8N-u1-LeU" secondAttribute="top" id="Aco-Ws-vkW"/>
+                            <constraint firstItem="Us7-v3-I52" firstAttribute="trailing" secondItem="I8N-u1-LeU" secondAttribute="trailing" id="flO-0J-U4h"/>
+                            <constraint firstItem="Us7-v3-I52" firstAttribute="leading" secondItem="I8N-u1-LeU" secondAttribute="leading" id="jk3-Is-2iK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="I8N-u1-LeU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Gs-5C-cEi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3331.884057971015" y="-617.41071428571422"/>
         </scene>
         <!--Hum Rights Petitions View Controller-->
         <scene sceneID="4DO-Th-pRJ">
