@@ -21,6 +21,7 @@
 		04489F4824BE4B4B00BB323D /* Voices_for_ChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04489F4724BE4B4B00BB323D /* Voices_for_ChangeTests.swift */; };
 		04489F5324BE4B4B00BB323D /* Voices_for_ChangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04489F5224BE4B4B00BB323D /* Voices_for_ChangeUITests.swift */; };
 		04489F6124BEBBF600BB323D /* MainHomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04489F6024BEBBF600BB323D /* MainHomeScreenViewController.swift */; };
+		186457BF24BED6A0009A97F9 /* ChooseTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186457BE24BED6A0009A97F9 /* ChooseTopicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		04489F5224BE4B4B00BB323D /* Voices_for_ChangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voices_for_ChangeUITests.swift; sourceTree = "<group>"; };
 		04489F5424BE4B4B00BB323D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04489F6024BEBBF600BB323D /* MainHomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeScreenViewController.swift; sourceTree = "<group>"; };
+		186457BE24BED6A0009A97F9 /* ChooseTopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTopicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				04489F2F24BE4B4700BB323D /* SceneDelegate.swift */,
 				04489F3124BE4B4700BB323D /* ViewController.swift */,
 				04489F3324BE4B4700BB323D /* Main.storyboard */,
+				186457BE24BED6A0009A97F9 /* ChooseTopicViewController.swift */,
 				04128AF024BED2D70074F3D7 /* HumRightsDonationsViewController.swift */,
 				04128AEE24BED1C10074F3D7 /* HumRightsPetitionsViewController.swift */,
 				04128AEC24BECE410074F3D7 /* HumRightsResourcesViewController.swift */,
@@ -280,6 +283,7 @@
 				04489F3224BE4B4700BB323D /* ViewController.swift in Sources */,
 				04489F2E24BE4B4700BB323D /* AppDelegate.swift in Sources */,
 				04128AEF24BED1C10074F3D7 /* HumRightsPetitionsViewController.swift in Sources */,
+				186457BF24BED6A0009A97F9 /* ChooseTopicViewController.swift in Sources */,
 				04128AED24BECE410074F3D7 /* HumRightsResourcesViewController.swift in Sources */,
 				04128AF124BED2D70074F3D7 /* HumRightsDonationsViewController.swift in Sources */,
 				04489F3824BE4B4700BB323D /* Voices_for_Change.xcdatamodeld in Sources */,
