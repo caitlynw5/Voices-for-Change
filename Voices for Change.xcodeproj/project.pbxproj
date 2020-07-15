@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04128AEB24BEC8E90074F3D7 /* HumanRightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04128AEA24BEC8E90074F3D7 /* HumanRightsViewController.swift */; };
+		04128AED24BECE410074F3D7 /* HumRightsResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04128AEC24BECE410074F3D7 /* HumRightsResourcesViewController.swift */; };
+		04128AEF24BED1C10074F3D7 /* HumRightsPetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04128AEE24BED1C10074F3D7 /* HumRightsPetitionsViewController.swift */; };
+		04128AF124BED2D70074F3D7 /* HumRightsDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04128AF024BED2D70074F3D7 /* HumRightsDonationsViewController.swift */; };
 		04489F2E24BE4B4700BB323D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04489F2D24BE4B4700BB323D /* AppDelegate.swift */; };
 		04489F3024BE4B4700BB323D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04489F2F24BE4B4700BB323D /* SceneDelegate.swift */; };
 		04489F3224BE4B4700BB323D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04489F3124BE4B4700BB323D /* ViewController.swift */; };
@@ -16,6 +20,7 @@
 		04489F3D24BE4B4B00BB323D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04489F3B24BE4B4B00BB323D /* LaunchScreen.storyboard */; };
 		04489F4824BE4B4B00BB323D /* Voices_for_ChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04489F4724BE4B4B00BB323D /* Voices_for_ChangeTests.swift */; };
 		04489F5324BE4B4B00BB323D /* Voices_for_ChangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04489F5224BE4B4B00BB323D /* Voices_for_ChangeUITests.swift */; };
+		04489F6124BEBBF600BB323D /* MainHomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04489F6024BEBBF600BB323D /* MainHomeScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04128AEA24BEC8E90074F3D7 /* HumanRightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanRightsViewController.swift; sourceTree = "<group>"; };
+		04128AEC24BECE410074F3D7 /* HumRightsResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumRightsResourcesViewController.swift; sourceTree = "<group>"; };
+		04128AEE24BED1C10074F3D7 /* HumRightsPetitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumRightsPetitionsViewController.swift; sourceTree = "<group>"; };
+		04128AF024BED2D70074F3D7 /* HumRightsDonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumRightsDonationsViewController.swift; sourceTree = "<group>"; };
 		04489F2A24BE4B4700BB323D /* Voices for Change.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voices for Change.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04489F2D24BE4B4700BB323D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04489F2F24BE4B4700BB323D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +60,7 @@
 		04489F4E24BE4B4B00BB323D /* Voices for ChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voices for ChangeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04489F5224BE4B4B00BB323D /* Voices_for_ChangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voices_for_ChangeUITests.swift; sourceTree = "<group>"; };
 		04489F5424BE4B4B00BB323D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04489F6024BEBBF600BB323D /* MainHomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,11 @@
 				04489F2F24BE4B4700BB323D /* SceneDelegate.swift */,
 				04489F3124BE4B4700BB323D /* ViewController.swift */,
 				04489F3324BE4B4700BB323D /* Main.storyboard */,
+				04128AF024BED2D70074F3D7 /* HumRightsDonationsViewController.swift */,
+				04128AEE24BED1C10074F3D7 /* HumRightsPetitionsViewController.swift */,
+				04128AEC24BECE410074F3D7 /* HumRightsResourcesViewController.swift */,
+				04128AEA24BEC8E90074F3D7 /* HumanRightsViewController.swift */,
+				04489F6024BEBBF600BB323D /* MainHomeScreenViewController.swift */,
 				04489F3924BE4B4B00BB323D /* Assets.xcassets */,
 				04489F3B24BE4B4B00BB323D /* LaunchScreen.storyboard */,
 				04489F3E24BE4B4B00BB323D /* Info.plist */,
@@ -264,8 +279,13 @@
 			files = (
 				04489F3224BE4B4700BB323D /* ViewController.swift in Sources */,
 				04489F2E24BE4B4700BB323D /* AppDelegate.swift in Sources */,
+				04128AEF24BED1C10074F3D7 /* HumRightsPetitionsViewController.swift in Sources */,
+				04128AED24BECE410074F3D7 /* HumRightsResourcesViewController.swift in Sources */,
+				04128AF124BED2D70074F3D7 /* HumRightsDonationsViewController.swift in Sources */,
 				04489F3824BE4B4700BB323D /* Voices_for_Change.xcdatamodeld in Sources */,
+				04489F6124BEBBF600BB323D /* MainHomeScreenViewController.swift in Sources */,
 				04489F3024BE4B4700BB323D /* SceneDelegate.swift in Sources */,
+				04128AEB24BEC8E90074F3D7 /* HumanRightsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
