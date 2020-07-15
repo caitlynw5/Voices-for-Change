@@ -10,7 +10,11 @@ import UIKit
 
 class HumRightsResourcesViewController: UIViewController {
 
-    
+    @IBAction func allYouNeedToKnow(_ sender: AnyObject) {
+        if let url = URL (string: "https://www.bbc.com/news/world-asia-china-45474279") {
+            UIApplication.shared.open(url)
+        }
+    }
     @IBOutlet weak var topicLabel: UILabel!
     
     @IBOutlet weak var resourceLabel: UILabel!
