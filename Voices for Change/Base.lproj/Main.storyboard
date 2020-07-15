@@ -322,7 +322,7 @@
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="S0o-SF-stI" customClass="HumRightsResourcesViewController" customModule="Voices_for_Change" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sa9-ue-LWg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="946"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBV-qT-pJ4">
@@ -416,31 +416,51 @@
                                     <action selector="allYouNeedToKnow:" destination="S0o-SF-stI" eventType="touchUpInside" id="HFR-Vi-Awh"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vBZ-6f-xcV">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0aI-L7-Mky">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="912"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YIh-JJ-1eI">
-                                        <rect key="frame" x="0.0" y="-35" width="414" height="885"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YWD-oI-53h" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="912"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="za6-mt-QGv">
+                                                <rect key="frame" x="37" y="683" width="341" height="207"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The topic of human rights encompasses violations of human rights according to the Universal Declaration of Human Rights, a document established as a common standard of all achievements for all peoples and nations by the United Nations General Assembly in Paris on December 10, 1948. Read more about the Universal Declaration of Human Rights here: https://www.un.org/en/universal-declaration-human-rights/</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="bh2-Cl-WNM"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="YIh-JJ-1eI" firstAttribute="top" secondItem="vBZ-6f-xcV" secondAttribute="top" id="P7T-GH-VbT"/>
-                                    <constraint firstAttribute="bottom" secondItem="YIh-JJ-1eI" secondAttribute="bottom" id="sip-sW-P0N"/>
+                                    <constraint firstItem="YWD-oI-53h" firstAttribute="width" secondItem="ZA1-a8-iVG" secondAttribute="width" id="6P2-5k-F6L"/>
+                                    <constraint firstItem="YWD-oI-53h" firstAttribute="width" secondItem="ZA1-a8-iVG" secondAttribute="width" id="KMg-lA-TBd"/>
+                                    <constraint firstItem="YWD-oI-53h" firstAttribute="trailing" secondItem="ZA1-a8-iVG" secondAttribute="trailing" id="N6y-Sw-j92"/>
+                                    <constraint firstItem="YWD-oI-53h" firstAttribute="leading" secondItem="ZA1-a8-iVG" secondAttribute="leading" id="WVp-hz-X0Z"/>
+                                    <constraint firstItem="ZA1-a8-iVG" firstAttribute="bottom" secondItem="YWD-oI-53h" secondAttribute="bottom" id="fU9-yl-bfi"/>
+                                    <constraint firstItem="YWD-oI-53h" firstAttribute="top" secondItem="0aI-L7-Mky" secondAttribute="top" id="hmd-kL-uad"/>
+                                    <constraint firstItem="YWD-oI-53h" firstAttribute="centerY" secondItem="FWV-uu-hyC" secondAttribute="centerY" id="wBS-k7-J2E"/>
                                 </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="Hzi-7s-Cuu"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="1BB-Vd-ayE"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="FWV-uu-hyC"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="ZA1-a8-iVG"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="vBZ-6f-xcV" firstAttribute="top" secondItem="szW-zo-V2A" secondAttribute="top" id="LWF-4d-FCE"/>
-                            <constraint firstAttribute="bottom" secondItem="vBZ-6f-xcV" secondAttribute="bottom" id="VZB-Zh-UhY"/>
+                            <constraint firstItem="szW-zo-V2A" firstAttribute="bottom" secondItem="0aI-L7-Mky" secondAttribute="bottom" id="erq-1X-ZgK"/>
+                            <constraint firstItem="0aI-L7-Mky" firstAttribute="leading" secondItem="szW-zo-V2A" secondAttribute="leading" id="nLv-v1-JMb"/>
+                            <constraint firstItem="0aI-L7-Mky" firstAttribute="top" secondItem="sa9-ue-LWg" secondAttribute="top" id="uDH-bf-yWm"/>
+                            <constraint firstItem="0aI-L7-Mky" firstAttribute="trailing" secondItem="szW-zo-V2A" secondAttribute="trailing" id="vFB-zs-nP1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="szW-zo-V2A"/>
                     </view>
                     <navigationItem key="navigationItem" id="iv4-uU-Zry"/>
-                    <size key="freeformSize" width="414" height="896"/>
+                    <size key="freeformSize" width="414" height="1000"/>
                     <connections>
                         <outlet property="InstaDivider" destination="UkS-Ea-cyc" id="cek-kt-If1"/>
                         <outlet property="articleDivider" destination="b5h-7A-95G" id="PPc-bu-2NP"/>
@@ -455,34 +475,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fzB-0P-KuE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2582.608695652174" y="-263.16964285714283"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="lkZ-Bt-A1Z">
-            <objects>
-                <viewController id="msf-3M-goi" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="md6-JM-gfH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Us7-v3-I52">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <viewLayoutGuide key="contentLayoutGuide" id="zAE-kh-RSD"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="erb-1C-nLi"/>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Us7-v3-I52" firstAttribute="bottom" secondItem="I8N-u1-LeU" secondAttribute="bottom" id="18z-pz-4eo"/>
-                            <constraint firstItem="Us7-v3-I52" firstAttribute="top" secondItem="I8N-u1-LeU" secondAttribute="top" id="Aco-Ws-vkW"/>
-                            <constraint firstItem="Us7-v3-I52" firstAttribute="trailing" secondItem="I8N-u1-LeU" secondAttribute="trailing" id="flO-0J-U4h"/>
-                            <constraint firstItem="Us7-v3-I52" firstAttribute="leading" secondItem="I8N-u1-LeU" secondAttribute="leading" id="jk3-Is-2iK"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="I8N-u1-LeU"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0Gs-5C-cEi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3331.884057971015" y="-617.41071428571422"/>
         </scene>
         <!--Hum Rights Petitions View Controller-->
         <scene sceneID="4DO-Th-pRJ">
