@@ -223,17 +223,6 @@
                                     <constraint firstAttribute="height" constant="263" id="1Ey-VE-d4M"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tib-rL-wyl">
-                                <rect key="frame" x="170" y="664.66666666666663" width="74" height="62"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="you">
-                                        <attributes>
-                                            <font key="NSFont" size="45" name="Avenir-Book"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="da6-rE-0hA">
                                 <rect key="frame" x="74" y="734.66666666666652" width="266" height="50.333333333333371"/>
                                 <color key="backgroundColor" red="0.24591094259999999" green="0.48255443570000001" blue="0.28269910809999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -261,6 +250,17 @@
                                     <constraint firstAttribute="height" constant="289" id="wMk-rw-cWs"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tib-rL-wyl">
+                                <rect key="frame" x="170" y="651" width="74" height="62"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="you">
+                                        <attributes>
+                                            <font key="NSFont" size="45" name="Avenir-Book"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -1645,7 +1645,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Caitlyn shared a drawing with you 10-1" width="524" height="413"/>
+        <image name="Caitlyn shared a drawing with you 10-1" width="609" height="420"/>
         <image name="Voice for Change Images" width="2160" height="2160"/>
     </resources>
 </document>
