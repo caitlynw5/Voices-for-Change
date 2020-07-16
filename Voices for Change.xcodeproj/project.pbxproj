@@ -24,6 +24,11 @@
 		186457BF24BED6A0009A97F9 /* ChooseTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186457BE24BED6A0009A97F9 /* ChooseTopicViewController.swift */; };
 		186457C524BFF4A5009A97F9 /* BlackLivesMatterOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186457C424BFF4A5009A97F9 /* BlackLivesMatterOverviewViewController.swift */; };
 		186457C724BFFC54009A97F9 /* BlackLivesMatterDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186457C624BFFC54009A97F9 /* BlackLivesMatterDonationsViewController.swift */; };
+		85E83A3224C03E4D00C687DC /* ClimateChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E83A3124C03E4D00C687DC /* ClimateChangeViewController.swift */; };
+		85E83A3424C0447400C687DC /* ClimateChangePetitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E83A3324C0447400C687DC /* ClimateChangePetitionViewController.swift */; };
+		85E83A3624C0449200C687DC /* ClimateChangeDonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E83A3524C0449200C687DC /* ClimateChangeDonateViewController.swift */; };
+		85E83A3824C044B800C687DC /* ClimateChangeResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E83A3724C044B800C687DC /* ClimateChangeResourcesViewController.swift */; };
+		85E83A3A24C05D7200C687DC /* RandomPetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E83A3924C05D7200C687DC /* RandomPetitionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +72,11 @@
 		186457BE24BED6A0009A97F9 /* ChooseTopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTopicViewController.swift; sourceTree = "<group>"; };
 		186457C424BFF4A5009A97F9 /* BlackLivesMatterOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackLivesMatterOverviewViewController.swift; sourceTree = "<group>"; };
 		186457C624BFFC54009A97F9 /* BlackLivesMatterDonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackLivesMatterDonationsViewController.swift; sourceTree = "<group>"; };
+		85E83A3124C03E4D00C687DC /* ClimateChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeViewController.swift; sourceTree = "<group>"; };
+		85E83A3324C0447400C687DC /* ClimateChangePetitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangePetitionViewController.swift; sourceTree = "<group>"; };
+		85E83A3524C0449200C687DC /* ClimateChangeDonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeDonateViewController.swift; sourceTree = "<group>"; };
+		85E83A3724C044B800C687DC /* ClimateChangeResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeResourcesViewController.swift; sourceTree = "<group>"; };
+		85E83A3924C05D7200C687DC /* RandomPetitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPetitionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,18 +131,23 @@
 				04489F2F24BE4B4700BB323D /* SceneDelegate.swift */,
 				04489F3124BE4B4700BB323D /* ViewController.swift */,
 				04489F3324BE4B4700BB323D /* Main.storyboard */,
-				186457C424BFF4A5009A97F9 /* BlackLivesMatterOverviewViewController.swift */,
+				04489F6024BEBBF600BB323D /* MainHomeScreenViewController.swift */,
 				186457BE24BED6A0009A97F9 /* ChooseTopicViewController.swift */,
+				85E83A3924C05D7200C687DC /* RandomPetitionsViewController.swift */,
+				186457C424BFF4A5009A97F9 /* BlackLivesMatterOverviewViewController.swift */,
+				186457C624BFFC54009A97F9 /* BlackLivesMatterDonationsViewController.swift */,
+				04128AEA24BEC8E90074F3D7 /* HumanRightsViewController.swift */,
 				04128AF024BED2D70074F3D7 /* HumRightsDonationsViewController.swift */,
 				04128AEE24BED1C10074F3D7 /* HumRightsPetitionsViewController.swift */,
 				04128AEC24BECE410074F3D7 /* HumRightsResourcesViewController.swift */,
-				04128AEA24BEC8E90074F3D7 /* HumanRightsViewController.swift */,
-				04489F6024BEBBF600BB323D /* MainHomeScreenViewController.swift */,
+				85E83A3124C03E4D00C687DC /* ClimateChangeViewController.swift */,
+				85E83A3724C044B800C687DC /* ClimateChangeResourcesViewController.swift */,
+				85E83A3324C0447400C687DC /* ClimateChangePetitionViewController.swift */,
+				85E83A3524C0449200C687DC /* ClimateChangeDonateViewController.swift */,
 				04489F3924BE4B4B00BB323D /* Assets.xcassets */,
 				04489F3B24BE4B4B00BB323D /* LaunchScreen.storyboard */,
 				04489F3E24BE4B4B00BB323D /* Info.plist */,
 				04489F3624BE4B4700BB323D /* Voices_for_Change.xcdatamodeld */,
-				186457C624BFFC54009A97F9 /* BlackLivesMatterDonationsViewController.swift */,
 			);
 			path = "Voices for Change";
 			sourceTree = "<group>";
@@ -290,13 +305,18 @@
 				04489F2E24BE4B4700BB323D /* AppDelegate.swift in Sources */,
 				04128AEF24BED1C10074F3D7 /* HumRightsPetitionsViewController.swift in Sources */,
 				186457BF24BED6A0009A97F9 /* ChooseTopicViewController.swift in Sources */,
+				85E83A3824C044B800C687DC /* ClimateChangeResourcesViewController.swift in Sources */,
 				04128AED24BECE410074F3D7 /* HumRightsResourcesViewController.swift in Sources */,
+				85E83A3624C0449200C687DC /* ClimateChangeDonateViewController.swift in Sources */,
 				04128AF124BED2D70074F3D7 /* HumRightsDonationsViewController.swift in Sources */,
 				04489F3824BE4B4700BB323D /* Voices_for_Change.xcdatamodeld in Sources */,
 				04489F6124BEBBF600BB323D /* MainHomeScreenViewController.swift in Sources */,
+				85E83A3424C0447400C687DC /* ClimateChangePetitionViewController.swift in Sources */,
 				04489F3024BE4B4700BB323D /* SceneDelegate.swift in Sources */,
 				186457C524BFF4A5009A97F9 /* BlackLivesMatterOverviewViewController.swift in Sources */,
+				85E83A3A24C05D7200C687DC /* RandomPetitionsViewController.swift in Sources */,
 				04128AEB24BEC8E90074F3D7 /* HumanRightsViewController.swift in Sources */,
+				85E83A3224C03E4D00C687DC /* ClimateChangeViewController.swift in Sources */,
 				186457C724BFFC54009A97F9 /* BlackLivesMatterDonationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
