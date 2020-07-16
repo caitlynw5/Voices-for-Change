@@ -866,24 +866,16 @@ Emergency and Tackling of Climate Change
             </objects>
             <point key="canvasLocation" x="-423" y="1505"/>
         </scene>
-        <!--View Controller-->
+        <!--Climate Change Resources2 View Controller-->
         <scene sceneID="tUN-kV-QZR">
             <objects>
-                <viewController id="oGQ-Ph-1M5" sceneMemberID="viewController">
+                <viewController id="oGQ-Ph-1M5" customClass="ClimateChangeResources2ViewController" customModule="Voices_for_Change" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xlf-d4-8k5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Books" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHK-aO-tqv">
-                                <rect key="frame" x="37" y="114" width="341" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="26"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ZX-in-AQ7">
-                                <rect key="frame" x="37" y="65" width="285" height="41"/>
+                                <rect key="frame" x="20" y="39" width="285" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Resources Continued">
@@ -895,8 +887,24 @@ Emergency and Tackling of Climate Change
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Books" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHK-aO-tqv">
+                                <rect key="frame" x="20" y="88" width="361" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(to buy from your local community bookstore!)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SEV-Tb-xx5">
+                                <rect key="frame" x="46" y="128" width="335" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nu0-iy-gWY">
-                                <rect key="frame" x="39" y="172" width="336" height="661"/>
+                                <rect key="frame" x="26" y="166" width="348" height="660"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <mutableString key="text">Down to Earth: Nature's Role in American History by Ted Steinberg
 
@@ -933,6 +941,12 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                         <viewLayoutGuide key="safeArea" id="IKq-dz-zzY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Pfg-Go-H0c"/>
+                    <connections>
+                        <outlet property="booksComment" destination="SEV-Tb-xx5" id="96b-jE-YmI"/>
+                        <outlet property="booksLabel" destination="SHK-aO-tqv" id="j2j-2i-beQ"/>
+                        <outlet property="booksList" destination="nu0-iy-gWY" id="sBs-gr-b03"/>
+                        <outlet property="headerLabel" destination="9ZX-in-AQ7" id="AWb-YU-WeE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LAG-xs-KZ8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -974,8 +988,8 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hy3-JL-Uei">
-                                <rect key="frame" x="27" y="140" width="341" height="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Podcasts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hy3-JL-Uei">
+                                <rect key="frame" x="26" y="278" width="348" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="26"/>
@@ -983,7 +997,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Instagram Accounts to Follow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXr-AU-nLp">
-                                <rect key="frame" x="20" y="597" width="344" height="42"/>
+                                <rect key="frame" x="26" y="497" width="347" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
@@ -991,7 +1005,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHS-ZJ-F11">
-                                <rect key="frame" x="27" y="178" width="341" height="52"/>
+                                <rect key="frame" x="20" y="178" width="341" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <state key="normal" title="Global Methane Emissions Reach a Record High">
@@ -1006,13 +1020,14 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JpB-zo-Rg2">
-                                <rect key="frame" x="25" y="647" width="194" height="37"/>
+                                <rect key="frame" x="29" y="541" width="102" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="@humanrightscampaign">
+                                <state key="normal" title="@cnnclimate">
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="insta1:" destination="weN-wu-3X5" eventType="touchUpInside" id="juC-uf-Asn"/>
                                     <action selector="instaAcc1:" destination="S0o-SF-stI" eventType="touchUpInside" id="T0Q-uZ-3mN"/>
                                     <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="IlN-uC-ont"/>
                                     <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="WG2-el-Byi"/>
@@ -1020,40 +1035,8 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="V9j-N2-ljb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCQ-Qt-6np">
-                                <rect key="frame" x="25" y="682" width="162" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="@humanrightswatch">
-                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="instaAcc2:" destination="S0o-SF-stI" eventType="touchUpInside" id="jeN-2V-riI"/>
-                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="7Yx-hQ-uDV"/>
-                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Yjm-TU-dfS"/>
-                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="ycL-Ne-3WQ"/>
-                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="5QR-sS-dl0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcz-pu-rNg">
-                                <rect key="frame" x="250" y="682" width="82" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="@amnesty">
-                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="instaAcc2:" destination="S0o-SF-stI" eventType="touchUpInside" id="uLL-t0-ZqV"/>
-                                    <action selector="instaAcc3:" destination="S0o-SF-stI" eventType="touchUpInside" id="lS8-0p-2aV"/>
-                                    <action selector="instaAcc4:" destination="S0o-SF-stI" eventType="touchUpInside" id="IRw-Un-6PW"/>
-                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="4jn-eV-ZDV"/>
-                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="MlD-4C-Stx"/>
-                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="xCO-mg-tnY"/>
-                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="yPq-Dy-6CZ"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Podcasts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5O-Vj-F44">
-                                <rect key="frame" x="27" y="405" width="343" height="33"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5O-Vj-F44">
+                                <rect key="frame" x="27" y="145" width="347" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
@@ -1061,14 +1044,15 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFv-BD-xrb">
-                                <rect key="frame" x="20" y="446" width="327" height="37"/>
+                                <rect key="frame" x="29" y="325" width="115" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="Declarations: The Human Rights Podcast">
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="America Adapts">
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="BJn-ab-mAS"/>
+                                    <action selector="podcast1:" destination="weN-wu-3X5" eventType="touchUpInside" id="BYB-E4-BVw"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="19u-wO-zOk"/>
                                     <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="45u-wo-OhU"/>
                                     <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="UBm-8o-OGP"/>
@@ -1078,9 +1062,9 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1LN-k2-QAI">
-                                <rect key="frame" x="-20" y="206" width="432" height="52"/>
+                                <rect key="frame" x="28" y="209" width="378" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
                                 <state key="normal" title="New Data Shows an ‘Extraordinary’ Rise in U.S. Coastal Flooding">
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -1110,23 +1094,196 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </state>
                                 <connections>
                                     <action selector="donateButton:" destination="z7s-8Q-QiF" eventType="touchUpInside" id="kBH-Wh-HZL"/>
+                                    <action selector="moreResourcesSegue:" destination="weN-wu-3X5" eventType="touchUpInside" id="ODH-IG-7GD"/>
                                     <segue destination="oGQ-Ph-1M5" kind="show" id="TYx-5N-WEZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhv-NO-0ix">
-                                <rect key="frame" x="244" y="614" width="94" height="102"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mS8-wk-u2i">
+                                <rect key="frame" x="27" y="239" width="280" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="@unwomen">
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="Biden Announces $2 Trillion Climate Plan">
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="instaAcc2:" destination="S0o-SF-stI" eventType="touchUpInside" id="vT9-7A-bOf"/>
-                                    <action selector="instaAcc3:" destination="S0o-SF-stI" eventType="touchUpInside" id="HGp-It-f14"/>
-                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="2hV-5X-WEs"/>
-                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="Qwc-b1-m1p"/>
-                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="rXQ-MQ-tC4"/>
-                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="ckF-3R-LAj"/>
+                                    <action selector="article1:" destination="weN-wu-3X5" eventType="touchUpInside" id="KdM-lH-Y5j"/>
+                                    <action selector="article2:" destination="weN-wu-3X5" eventType="touchUpInside" id="4Be-A7-5vL"/>
+                                    <action selector="article3:" destination="weN-wu-3X5" eventType="touchUpInside" id="wIa-wA-LhY"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="3TT-QR-RBt"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="mgW-Jb-FTc"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="vFw-ud-C3N"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="tja-Qs-Dac"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbn-SI-NOG">
+                                <rect key="frame" x="27" y="379" width="125" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Costing the Earth">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="YuX-QM-1Sy"/>
+                                    <action selector="podcast3:" destination="weN-wu-3X5" eventType="touchUpInside" id="mpz-TM-gMA"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="3DG-q7-upD"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Dmm-Wa-esm"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="nKq-e4-sL3"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="btD-qc-ndg"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="1a3-pv-Oyv"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="eZi-94-d4e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqE-wI-EWe">
+                                <rect key="frame" x="26" y="350" width="362" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Climate Conversations: A Climate Change Podcast">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="2Q9-AH-WQF"/>
+                                    <action selector="podcast1:" destination="weN-wu-3X5" eventType="touchUpInside" id="eqL-Nm-NgI"/>
+                                    <action selector="podcast2:" destination="weN-wu-3X5" eventType="touchUpInside" id="L3U-EV-H3m"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="Dyx-cP-S5H"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="UgQ-r9-q9J"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="eQf-r8-d7n"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="Vw2-m9-Fa8"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="BUa-q4-hdW"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="gvr-5A-yQb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUD-10-XY6">
+                                <rect key="frame" x="28" y="461" width="69" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Terrestrial">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="tMX-VX-6ar"/>
+                                    <action selector="podcast6:" destination="weN-wu-3X5" eventType="touchUpInside" id="NL5-hC-vSr"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="8xb-le-ibA"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="CLg-SQ-nKy"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="lbG-zE-vW3"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="Pe6-qD-nSk"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="8C7-7U-cpX"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="xFF-kc-wY5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjf-75-TBx">
+                                <rect key="frame" x="29" y="408" width="149" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Mothers of Invention">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="P3q-VQ-sym"/>
+                                    <action selector="podcast4:" destination="weN-wu-3X5" eventType="touchUpInside" id="A1c-dx-mPP"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="KLw-d9-4lr"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="eY0-sA-3kO"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="lnZ-6J-eg9"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="CGp-hg-ccp"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="WPN-bX-ICh"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="qzL-dz-w13"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rV-eY-k1V">
+                                <rect key="frame" x="29" y="685" width="152" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="@unclimatechange">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="insta6:" destination="weN-wu-3X5" eventType="touchUpInside" id="Zgv-xl-Duk"/>
+                                    <action selector="instaAcc1:" destination="S0o-SF-stI" eventType="touchUpInside" id="jhc-7a-YIZ"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="DGi-Xh-zwA"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="Wng-aa-ZoT"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="jeP-aL-8Ul"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="0q4-yO-3zk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fan-MO-QOY">
+                                <rect key="frame" x="29" y="655" width="87" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="@nrdc_org">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="insta5:" destination="weN-wu-3X5" eventType="touchUpInside" id="SvR-9I-POW"/>
+                                    <action selector="instaAcc1:" destination="S0o-SF-stI" eventType="touchUpInside" id="tfj-Ta-uV5"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="3JK-2T-hIl"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="hYh-dn-W46"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="say-tp-yOc"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="Tbx-FA-Dpj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHX-Mk-xcQ">
+                                <rect key="frame" x="29" y="626" width="111" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="@greenpeace">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="insta4:" destination="weN-wu-3X5" eventType="touchUpInside" id="7eK-gy-vu1"/>
+                                    <action selector="instaAcc1:" destination="S0o-SF-stI" eventType="touchUpInside" id="a6U-EO-fbP"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="04D-v6-0wx"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="Ohk-ni-u2s"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="iac-wi-VFA"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="3WQ-EY-8Bg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAS-4D-PTN">
+                                <rect key="frame" x="29" y="598" width="164" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="@extinctionrebellion">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="insta3:" destination="weN-wu-3X5" eventType="touchUpInside" id="Bi8-0x-F1p"/>
+                                    <action selector="instaAcc1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Igi-8D-YUB"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="U08-Mn-ELq"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="aMl-Q1-hyt"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="gpF-mh-Igb"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="yV0-Nd-2Aq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gx5-Sk-5fv">
+                                <rect key="frame" x="29" y="569" width="117" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="@earthalliance">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="insta2:" destination="weN-wu-3X5" eventType="touchUpInside" id="ie8-hS-lsz"/>
+                                    <action selector="instaAcc1:" destination="S0o-SF-stI" eventType="touchUpInside" id="vn7-Zh-tqj"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="2TJ-aQ-F1M"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="xT0-cX-CUW"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="zvf-KM-Ssr"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="Xhi-9a-HzL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GfY-DN-nO6">
+                                <rect key="frame" x="29" y="434" width="95" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Climate Cash">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="frp-77-OJR"/>
+                                    <action selector="podcast4:" destination="weN-wu-3X5" eventType="touchUpInside" id="PdM-fI-jba"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="3Fq-zh-tNY"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="TpA-Ht-i7K"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="epL-wY-4ut"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="F1s-Ev-RIs"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="00V-so-wmu"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Dab-wO-GjU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1135,8 +1292,10 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                     </view>
                     <navigationItem key="navigationItem" id="qJr-5F-WUG"/>
                     <connections>
-                        <outlet property="articlesHeader" destination="hy3-JL-Uei" id="jf2-th-e9i"/>
+                        <outlet property="InstaAccountsHeader" destination="eXr-AU-nLp" id="peH-iL-UOd"/>
+                        <outlet property="articlesHeader" destination="c5O-Vj-F44" id="baw-5r-YbB"/>
                         <outlet property="headerLabel" destination="LTF-Yw-TuC" id="Vay-Nm-GLf"/>
+                        <outlet property="podcastsHeader" destination="hy3-JL-Uei" id="q6P-9b-d8Z"/>
                         <outlet property="subheaderLabel" destination="yCV-oe-YVR" id="QjZ-MK-qO0"/>
                     </connections>
                 </viewController>
@@ -1331,26 +1490,6 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <segue destination="weN-wu-3X5" kind="show" id="aS3-zY-5sm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fLD-1O-D2Q">
-                                <rect key="frame" x="61" y="577" width="292" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="petitions">
-                                            <attributes>
-                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <font key="NSFont" size="29" name="Avenir-Book"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <action selector="petitionButton:" destination="z7s-8Q-QiF" eventType="touchUpInside" id="Wdq-4Q-NKL"/>
-                                    <segue destination="JvB-CF-4y4" kind="show" id="Zeh-vB-flV"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m9u-KH-KpV">
                                 <rect key="frame" x="61" y="684" width="292" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1379,6 +1518,26 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fLD-1O-D2Q">
+                                <rect key="frame" x="61" y="575" width="292" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="petitions">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" size="29" name="Avenir-Book"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="petitionButton:" destination="z7s-8Q-QiF" eventType="touchUpInside" id="Wdq-4Q-NKL"/>
+                                    <segue destination="JvB-CF-4y4" kind="show" id="Zeh-vB-flV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="CV2-v0-ufx"/>

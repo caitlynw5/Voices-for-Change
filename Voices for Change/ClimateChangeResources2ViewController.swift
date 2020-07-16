@@ -10,6 +10,15 @@ import UIKit
 
 class ClimateChangeResources2ViewController: UIViewController {
 
+    @IBOutlet weak var headerLabel: UILabel!
+    
+    @IBOutlet weak var booksLabel: UILabel!
+    
+    @IBOutlet weak var booksComment: UILabel!
+    
+    @IBOutlet weak var booksList: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
