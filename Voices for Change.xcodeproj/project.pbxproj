@@ -31,6 +31,7 @@
 		85E83A3624C0449200C687DC /* ClimateChangeDonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E83A3524C0449200C687DC /* ClimateChangeDonateViewController.swift */; };
 		85E83A3824C044B800C687DC /* ClimateChangeResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E83A3724C044B800C687DC /* ClimateChangeResourcesViewController.swift */; };
 		85E83A3A24C05D7200C687DC /* RandomPetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E83A3924C05D7200C687DC /* RandomPetitionsViewController.swift */; };
+		85E83A3C24C0DC0600C687DC /* ClimateChangeResources2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E83A3B24C0DC0600C687DC /* ClimateChangeResources2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		85E83A3524C0449200C687DC /* ClimateChangeDonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeDonateViewController.swift; sourceTree = "<group>"; };
 		85E83A3724C044B800C687DC /* ClimateChangeResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeResourcesViewController.swift; sourceTree = "<group>"; };
 		85E83A3924C05D7200C687DC /* RandomPetitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPetitionsViewController.swift; sourceTree = "<group>"; };
+		85E83A3B24C0DC0600C687DC /* ClimateChangeResources2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeResources2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				04128AEC24BECE410074F3D7 /* HumRightsResourcesViewController.swift */,
 				85E83A3124C03E4D00C687DC /* ClimateChangeViewController.swift */,
 				85E83A3724C044B800C687DC /* ClimateChangeResourcesViewController.swift */,
+				85E83A3B24C0DC0600C687DC /* ClimateChangeResources2ViewController.swift */,
 				85E83A3324C0447400C687DC /* ClimateChangePetitionViewController.swift */,
 				85E83A3524C0449200C687DC /* ClimateChangeDonateViewController.swift */,
 				04489F3924BE4B4B00BB323D /* Assets.xcassets */,
@@ -322,6 +325,7 @@
 				85E83A3424C0447400C687DC /* ClimateChangePetitionViewController.swift in Sources */,
 				04489F3024BE4B4700BB323D /* SceneDelegate.swift in Sources */,
 				186457C524BFF4A5009A97F9 /* BlackLivesMatterOverviewViewController.swift in Sources */,
+				85E83A3C24C0DC0600C687DC /* ClimateChangeResources2ViewController.swift in Sources */,
 				85E83A3A24C05D7200C687DC /* RandomPetitionsViewController.swift in Sources */,
 				04128AEB24BEC8E90074F3D7 /* HumanRightsViewController.swift in Sources */,
 				85E83A3224C03E4D00C687DC /* ClimateChangeViewController.swift in Sources */,
