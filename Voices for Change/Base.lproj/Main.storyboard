@@ -343,8 +343,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Caitlyn shared a drawing with you 10-1" translatesAutoresizingMaskIntoConstraints="NO" id="fAN-88-ua5">
                                 <rect key="frame" x="20" y="80" width="364" height="277"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tib-rL-wyl">
-                                <rect key="frame" x="170" y="666.66666666666663" width="74" height="62"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tib-rL-wyl">
+                                <rect key="frame" x="170" y="653.66666666666663" width="74" height="62"/>
                                 <attributedString key="attributedText">
                                     <fragment content="you">
                                         <attributes>
@@ -420,7 +420,7 @@
                                     <action selector="button1:" destination="thD-YO-WxP" eventType="touchUpInside" id="8LS-7h-xuF"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Every signature counts... included below are a few petitions that have yet to reach their quota on Change.org." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwV-Xm-mro">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Every signature counts... included below are a few petitions that have yet to reach their quota on change.org." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwV-Xm-mro">
                                 <rect key="frame" x="37" y="95" width="341" height="96"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -452,6 +452,69 @@
                                     <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="ub2-F6-vYc"/>
                                     <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="thI-0V-GcC"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="cXC-47-yNx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmD-3c-rsM">
+                                <rect key="frame" x="94" y="276" width="226" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <state key="normal">
+                                    <string key="title">Justice For George Floyd
+</string>
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="pM1-AN-yZe"/>
+                                    <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="Oey-YX-mqK"/>
+                                    <action selector="petition3:" destination="vnC-wA-cbg" eventType="touchUpInside" id="zU3-wB-E4k"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="kLa-7I-0hZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3R-P2-bOC">
+                                <rect key="frame" x="24" y="383" width="366" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Improve Transgender Healthcare Services in the UK">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="xbQ-iK-w1Q"/>
+                                    <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="Mh3-jQ-daD"/>
+                                    <action selector="petition3:" destination="vnC-wA-cbg" eventType="touchUpInside" id="UJu-KQ-0JS"/>
+                                    <action selector="petition5:" destination="vnC-wA-cbg" eventType="touchUpInside" id="IQh-p5-vj4"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="XfT-T5-YnP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cla-ms-wyq">
+                                <rect key="frame" x="53" y="341" width="308" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Urgent Petition on the UN Kashmir Reports">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="XEc-od-9rx"/>
+                                    <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="UQp-Xq-lVe"/>
+                                    <action selector="petition3:" destination="vnC-wA-cbg" eventType="touchUpInside" id="cGb-A2-toC"/>
+                                    <action selector="petition4:" destination="vnC-wA-cbg" eventType="touchUpInside" id="kRQ-xD-aT1"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="Hpq-7d-bwU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQ5-qA-ezN">
+                                <rect key="frame" x="85" y="423" width="245" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <state key="normal">
+                                    <string key="title">Urgent Immigration Reform
+</string>
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="DtX-fC-tEj"/>
+                                    <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="4jA-YE-40N"/>
+                                    <action selector="petition3:" destination="vnC-wA-cbg" eventType="touchUpInside" id="qYp-zX-pFz"/>
+                                    <action selector="petition6:" destination="vnC-wA-cbg" eventType="touchUpInside" id="pCk-jF-KkL"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="cY9-OP-GV2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -489,11 +552,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Caitlyn shared a drawing with you 10-1" translatesAutoresizingMaskIntoConstraints="NO" id="3Sj-tV-YEH">
-                                <rect key="frame" x="25" y="36" width="364" height="420"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="APj-MH-GX5">
-                                <rect key="frame" x="20" y="581" width="374" height="53"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="APj-MH-GX5">
+                                <rect key="frame" x="20" y="581" width="374" height="81"/>
                                 <color key="backgroundColor" red="0.25781530139999997" green="0.50609546900000002" blue="0.29363876579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -511,8 +571,8 @@
                                     <segue destination="1yq-OX-HLC" kind="show" id="by0-j9-x11"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1in-jz-NIt">
-                                <rect key="frame" x="20" y="493" width="374" height="53"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1in-jz-NIt">
+                                <rect key="frame" x="20" y="464" width="374" height="82"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -530,6 +590,22 @@
                                     <segue destination="vnC-wA-cbg" kind="show" id="nQj-ix-rRi"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVT-Vg-D8Y">
+                                <rect key="frame" x="55" y="371" width="305" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="choose one of the options below">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Avenir-Book"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Caitlyn shared a drawing with you 10-1" translatesAutoresizingMaskIntoConstraints="NO" id="3Sj-tV-YEH">
+                                <rect key="frame" x="25" y="20" width="364" height="420"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -554,6 +630,7 @@
                     <navigationItem key="navigationItem" id="3zp-DM-RY3"/>
                     <connections>
                         <outlet property="iconImage" destination="3Sj-tV-YEH" id="dIV-AF-DKA"/>
+                        <outlet property="subHeadLabel" destination="tVT-Vg-D8Y" id="Em4-kP-NVO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BDL-Ex-Zam" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -898,7 +975,7 @@ Emergency and Tackling of Climate Change
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nu0-iy-gWY">
                                 <rect key="frame" x="39" y="172" width="336" height="661"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Down to Earth: Nature's Role in American History by Ted Steinberg
+                                <string key="text">Down to Earth: Nature's Role in American History by Ted Steinberg
 
 
 How to Give Up Plastic: A Guide to Changing the World, One Plastic Bottle at a Time by Will McCallum
@@ -923,7 +1000,7 @@ This Is Not a Drill: An Extinction Rebellion Handbook by Extinction Rebellion
 
 
 Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Miller
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1508,15 +1585,15 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 <constraints>
                                     <constraint firstAttribute="height" constant="207" id="Qms-Ag-kzd"/>
                                 </constraints>
-                                <string key="text">The topic of human rights encompasses violations of human rights according to the Universal Declaration of Human Rights, a document established as a common standard of all achievements for all peoples and nations by the United Nations General Assembly in Paris on December 10, 1948. Read more about the Universal Declaration of Human Rights here: https://www.un.org/en/universal-declaration-human-rights/</string>
+                                <string key="text">The topic of human rights encompasses violations of human rights according to the Universal Declaration of Human Rights, a document established as a common standard of all achievements for all peoples and nations by the United Nations General Assembly in Paris on December 10, 1948. Read more about the Universal Declaration of Human Rights here:</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10O-8E-i0q">
-                                <rect key="frame" x="150" y="210" width="114" height="34"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Overview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10O-8E-i0q">
+                                <rect key="frame" x="148" y="208" width="118" height="38.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QI1-vV-eCQ">
@@ -1580,6 +1657,25 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 <connections>
                                     <action selector="donateButton:" destination="z7s-8Q-QiF" eventType="touchUpInside" id="mld-J2-QCp"/>
                                     <segue destination="Kn0-lP-0IV" kind="show" id="Yuo-Ne-myA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhQ-7v-M99">
+                                <rect key="frame" x="105" y="411" width="205" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="Universal Declaration of Rights">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="link:" destination="z7s-8Q-QiF" eventType="touchUpInside" id="z55-C9-Fh2"/>
+                                    <action selector="podcast2:" destination="S0o-SF-stI" eventType="touchUpInside" id="xGn-1U-e5g"/>
+                                    <action selector="podcast3:" destination="S0o-SF-stI" eventType="touchUpInside" id="U1O-rw-nNA"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="CCy-ah-3EI"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Egn-EB-0LT"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="NnZ-dt-3m4"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="d81-KE-WLy"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="l3O-1h-NGq"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="LD4-Bv-Iel"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1945,8 +2041,13 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                     </view>
                     <navigationItem key="navigationItem" id="iv4-uU-Zry"/>
                     <connections>
+                        <outlet property="articleDivider" destination="hfP-qn-aIe" id="a3r-MA-hxS"/>
                         <outlet property="instaDivider" destination="FEb-db-ffg" id="Uzt-p8-JVO"/>
+                        <outlet property="podcastDivider" destination="Rnf-q4-SIF" id="5Do-9X-xnu"/>
                         <outlet property="resourceLabel" destination="4PP-b4-Hoh" id="V8M-61-3wS"/>
+                        <outlet property="subHead1" destination="auB-01-vOV" id="Lyj-de-gqq"/>
+                        <outlet property="subHead2" destination="ZCr-bZ-76Q" id="v46-xP-2IV"/>
+                        <outlet property="subHead3" destination="ya7-DX-CkQ" id="0GZ-mX-ab6"/>
                         <outlet property="topicLabel" destination="vDo-eE-eZq" id="O6t-KI-4Rr"/>
                     </connections>
                 </viewController>

@@ -11,18 +11,49 @@ import UIKit
 class RandomPetitionsViewController: UIViewController {
 
     @IBOutlet weak var headerLabel: UIButton!
+    
     @IBOutlet weak var shortDescrip: UILabel!
+    
     @IBAction func petition1(_ sender: AnyObject) {
-        
         if let url = URL (string: "https://www.change.org/p/andy-beshear-justice-for-breonna-taylor?signed=true") {
             UIApplication.shared.open(url)
                }
     }
+    
     @IBAction func petition2(_ sender: AnyObject) {
         if let url = URL (string: "https://www.change.org/p/human-rights-campaign-justice-for-ahmuad-arbery?signed=true") {
         UIApplication.shared.open(url)
            }
     }
+    
+    
+    @IBAction func petition3(_ sender: AnyObject) {
+        if let url = URL (string: "https://www.change.org/p/mayor-jacob-frey-justice-for-george-floyd?source_location=country_banner") {
+        UIApplication.shared.open(url)
+           }
+    }
+    
+
+    @IBAction func petition4(_ sender: AnyObject) {
+        if let url = URL (string: "https://www.change.org/p/office-of-the-high-commissioner-for-human-rights-urgent-petition-on-the-un-kashmir-report") {
+        UIApplication.shared.open(url)
+           }
+    }
+    
+    
+    @IBAction func petition5(_ sender: AnyObject) {
+        if let url = URL (string: "https://www.change.org/p/transgender-healthcare-services-in-the-uk-are-broken-urgent-improvements-are-needed") {
+        UIApplication.shared.open(url)
+           }
+    }
+    
+    
+    @IBAction func petition6(_ sender: AnyObject) {
+        if let url = URL (string: "https://www.change.org/p/department-of-homeland-security-urgent-immigration-reform-don-t-split-families-apart") {
+        UIApplication.shared.open(url)
+           }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

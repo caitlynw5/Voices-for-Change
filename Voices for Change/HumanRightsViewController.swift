@@ -12,10 +12,16 @@ class HumanRightsViewController: UIViewController {
 
     @IBOutlet weak var topicLabel: UILabel!
     
-    
     @IBOutlet weak var overviewHeading: UILabel!
     
     @IBOutlet weak var overviewText: UILabel!
+    
+    
+    @IBAction func link(_ sender: AnyObject) {
+        if let url = URL (string: "https://www.un.org/en/universal-declaration-human-rights/") {
+            UIApplication.shared.open(url)
+        }
+    }
     
     
     @IBAction func resourcesButton(_ sender: Any) {
