@@ -10,7 +10,8 @@ import UIKit
 
 class MainHomeScreenViewController: UIViewController {
 
- 
+    @IBOutlet weak var subHeadLabel: UILabel!
+    
     @IBOutlet weak var iconImage: UIImageView!
     
     

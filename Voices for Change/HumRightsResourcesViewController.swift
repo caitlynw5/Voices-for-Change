@@ -52,7 +52,6 @@ class HumRightsResourcesViewController: UIViewController {
     
     @IBOutlet weak var subHead3: UILabel!
     
-    
     @IBAction func subHead3Link1(_ sender: AnyObject) {
         if let url = URL (string: "https://www.unicef.org/emergencies/yemen-crisis") {
              UIApplication.shared.open(url)
@@ -105,9 +104,6 @@ class HumRightsResourcesViewController: UIViewController {
              UIApplication.shared.open(url)
          }
     }
-    
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
