@@ -32,7 +32,7 @@ class HumRightsResourcesViewController: UIViewController {
     
     @IBOutlet weak var instaDivider: UILabel!
     
-    
+
     @IBOutlet weak var podcastDivider: UILabel!
     
     
