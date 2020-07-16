@@ -15,9 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFQ-9L-Orh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFQ-9L-Orh">
                                 <rect key="frame" x="37" y="105" width="341" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Black Lives Matter">
@@ -30,15 +29,25 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Petitions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luI-Ep-Zd5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Petitions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luI-Ep-Zd5">
                                 <rect key="frame" x="37" y="201" width="104" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="VGn-3F-AuH"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lMV-YV-QCY" firstAttribute="bottom" secondItem="luI-Ep-Zd5" secondAttribute="bottom" constant="573" id="Dj6-yj-7oo"/>
+                            <constraint firstItem="EFQ-9L-Orh" firstAttribute="centerX" secondItem="Ho1-Js-dhr" secondAttribute="centerX" id="K75-eW-KZG"/>
+                            <constraint firstItem="EFQ-9L-Orh" firstAttribute="leading" secondItem="luI-Ep-Zd5" secondAttribute="leading" id="WBA-nc-SAb"/>
+                            <constraint firstItem="luI-Ep-Zd5" firstAttribute="top" secondItem="EFQ-9L-Orh" secondAttribute="bottom" constant="34" id="bdP-aI-jTI"/>
+                            <constraint firstItem="EFQ-9L-Orh" firstAttribute="top" secondItem="lMV-YV-QCY" secondAttribute="top" constant="105" id="c3Q-zl-z8f"/>
+                            <constraint firstItem="EFQ-9L-Orh" firstAttribute="leading" secondItem="lMV-YV-QCY" secondAttribute="leading" constant="37" id="nZD-kc-Py6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="lMV-YV-QCY"/>
                     </view>
                     <navigationItem key="navigationItem" id="5kD-bj-JU6"/>
@@ -55,7 +64,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8O-eG-QkV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8O-eG-QkV">
                                 <rect key="frame" x="37" y="69" width="340" height="57"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
@@ -71,13 +80,18 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Donations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7a-OE-ryn">
                                 <rect key="frame" x="37" y="136" width="123" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="aKz-oG-vA7"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNM-TI-gkP">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNM-TI-gkP">
                                 <rect key="frame" x="37" y="178" width="308" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="mwn-jw-m1u"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <state key="normal" title="#HomelessBlackTransWomenFund">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -87,9 +101,11 @@
                                     <action selector="homelessblackTransWomen:" destination="Ess-41-YIh" eventType="touchUpInside" id="FCm-UR-KGE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHL-aw-mFO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHL-aw-mFO">
                                 <rect key="frame" x="37" y="226" width="129" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="CxJ-eg-ayM"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <state key="normal" title="Sybrina Fulton">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -98,9 +114,11 @@
                                     <action selector="sybrinaFulton:" destination="Ess-41-YIh" eventType="touchUpInside" id="u0C-8a-3G2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gC-uM-vg7">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gC-uM-vg7">
                                 <rect key="frame" x="37" y="274" width="314" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="P0V-6b-jww"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <state key="normal" title="Destiny Harrison &amp; Dream's Legacy">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -110,9 +128,11 @@
                                     <action selector="sybrinaFulton:" destination="Ess-41-YIh" eventType="touchUpInside" id="CJr-Ag-YFD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60Z-7s-cjm">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60Z-7s-cjm">
                                 <rect key="frame" x="37" y="322" width="246" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="QQx-fQ-ssr"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <state key="normal" title="In Memory of Tony Mcdade">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -123,9 +143,11 @@
                                     <action selector="tonyMcdade:" destination="Ess-41-YIh" eventType="touchUpInside" id="OcA-Cf-zkM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tj2-jP-bBh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tj2-jP-bBh">
                                 <rect key="frame" x="37" y="370" width="145" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1nX-IH-Mam"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <state key="normal" title="I Run with Maud">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -140,13 +162,22 @@
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="d5y-Kq-45a" firstAttribute="trailing" secondItem="v7a-OE-ryn" secondAttribute="trailing" constant="254" id="5vC-zX-HO2"/>
-                            <constraint firstItem="h8O-eG-QkV" firstAttribute="top" secondItem="d5y-Kq-45a" secondAttribute="top" constant="69" id="8A4-yw-LHs"/>
-                            <constraint firstItem="d5y-Kq-45a" firstAttribute="trailing" secondItem="h8O-eG-QkV" secondAttribute="trailing" constant="37" id="SVj-Up-a29"/>
-                            <constraint firstItem="v7a-OE-ryn" firstAttribute="top" secondItem="h8O-eG-QkV" secondAttribute="bottom" constant="19" id="X4G-p0-oV9"/>
-                            <constraint firstItem="h8O-eG-QkV" firstAttribute="leading" secondItem="d5y-Kq-45a" secondAttribute="leading" constant="37" id="ao5-hP-Rqr"/>
-                            <constraint firstItem="v7a-OE-ryn" firstAttribute="leading" secondItem="d5y-Kq-45a" secondAttribute="leading" constant="37" id="mHP-6n-1hL"/>
-                            <constraint firstItem="d5y-Kq-45a" firstAttribute="bottom" secondItem="v7a-OE-ryn" secondAttribute="bottom" constant="638" id="nny-Jw-a0x"/>
+                            <constraint firstItem="v7a-OE-ryn" firstAttribute="leading" secondItem="XNM-TI-gkP" secondAttribute="leading" id="56j-me-3cf"/>
+                            <constraint firstItem="v7a-OE-ryn" firstAttribute="top" secondItem="h8O-eG-QkV" secondAttribute="bottom" constant="10" id="AnO-VD-loz"/>
+                            <constraint firstItem="d5y-Kq-45a" firstAttribute="bottom" secondItem="tj2-jP-bBh" secondAttribute="bottom" constant="398" id="BZC-A9-ISM"/>
+                            <constraint firstItem="60Z-7s-cjm" firstAttribute="top" secondItem="2gC-uM-vg7" secondAttribute="bottom" constant="8" symbolic="YES" id="Jh2-Qh-P6V"/>
+                            <constraint firstItem="XNM-TI-gkP" firstAttribute="leading" secondItem="VHL-aw-mFO" secondAttribute="leading" id="MRr-eV-SRF"/>
+                            <constraint firstItem="h8O-eG-QkV" firstAttribute="centerX" secondItem="xR4-HQ-dzl" secondAttribute="centerX" id="Na7-Sx-fb9"/>
+                            <constraint firstItem="VHL-aw-mFO" firstAttribute="top" secondItem="XNM-TI-gkP" secondAttribute="bottom" constant="8" symbolic="YES" id="R3V-fw-DsE"/>
+                            <constraint firstItem="tj2-jP-bBh" firstAttribute="top" secondItem="60Z-7s-cjm" secondAttribute="bottom" constant="8" symbolic="YES" id="SEd-u8-LAy"/>
+                            <constraint firstItem="h8O-eG-QkV" firstAttribute="top" secondItem="d5y-Kq-45a" secondAttribute="top" constant="69" id="cMo-TX-apj"/>
+                            <constraint firstItem="XNM-TI-gkP" firstAttribute="top" secondItem="v7a-OE-ryn" secondAttribute="bottom" constant="8" symbolic="YES" id="cbV-jI-set"/>
+                            <constraint firstItem="h8O-eG-QkV" firstAttribute="leading" secondItem="v7a-OE-ryn" secondAttribute="leading" id="dPH-bx-1nt"/>
+                            <constraint firstItem="60Z-7s-cjm" firstAttribute="leading" secondItem="tj2-jP-bBh" secondAttribute="leading" id="dlk-I6-dVe"/>
+                            <constraint firstItem="h8O-eG-QkV" firstAttribute="leading" secondItem="d5y-Kq-45a" secondAttribute="leading" constant="37" id="lf3-Ve-Xxs"/>
+                            <constraint firstItem="VHL-aw-mFO" firstAttribute="leading" secondItem="2gC-uM-vg7" secondAttribute="leading" id="qoD-2c-F4u"/>
+                            <constraint firstItem="2gC-uM-vg7" firstAttribute="top" secondItem="VHL-aw-mFO" secondAttribute="bottom" constant="8" symbolic="YES" id="r14-xQ-weu"/>
+                            <constraint firstItem="2gC-uM-vg7" firstAttribute="leading" secondItem="60Z-7s-cjm" secondAttribute="leading" id="vkQ-pV-sPH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="d5y-Kq-45a"/>
                     </view>
@@ -165,9 +196,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogI-fF-HmO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogI-fF-HmO">
                                 <rect key="frame" x="37" y="82" width="341" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Black Lives Matter">
@@ -180,15 +210,25 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resources" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dg-y1-t7W">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resources" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dg-y1-t7W">
                                 <rect key="frame" x="37" y="174" width="127" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="RDK-EC-DYa"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eOR-Iq-9DR" firstAttribute="bottom" secondItem="2dg-y1-t7W" secondAttribute="bottom" constant="600" id="7FN-Zt-U4g"/>
+                            <constraint firstItem="ogI-fF-HmO" firstAttribute="leading" secondItem="eOR-Iq-9DR" secondAttribute="leading" constant="37" id="9kJ-qi-cbo"/>
+                            <constraint firstItem="ogI-fF-HmO" firstAttribute="leading" secondItem="2dg-y1-t7W" secondAttribute="leading" id="AJ3-0V-unt"/>
+                            <constraint firstItem="ogI-fF-HmO" firstAttribute="centerX" secondItem="pRi-yL-xMQ" secondAttribute="centerX" id="MJh-1W-gKf"/>
+                            <constraint firstItem="ogI-fF-HmO" firstAttribute="top" secondItem="eOR-Iq-9DR" secondAttribute="top" constant="82" id="fEf-Ek-W5x"/>
+                            <constraint firstItem="2dg-y1-t7W" firstAttribute="top" secondItem="ogI-fF-HmO" secondAttribute="bottom" constant="30" id="ucO-qr-BIC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="eOR-Iq-9DR"/>
                     </view>
                     <navigationItem key="navigationItem" id="6li-eR-QHR"/>
@@ -205,9 +245,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiU-n9-jj7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiU-n9-jj7">
                                 <rect key="frame" x="74" y="354" width="266" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="change starts with ">
                                         <attributes>
@@ -218,12 +257,12 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Voice for Change Images" translatesAutoresizingMaskIntoConstraints="NO" id="Wdr-g7-euU">
-                                <rect key="frame" x="50" y="394" width="314" height="263"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="da6-rE-0hA">
                                 <rect key="frame" x="74" y="734.66666666666663" width="266" height="50.333333333333371"/>
                                 <color key="backgroundColor" red="0.24591094259999999" green="0.48255443570000001" blue="0.28269910809999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50.333333333333371" id="M21-24-pjZ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="28"/>
                                 <state key="normal" title="get started">
                                     <attributedString key="attributedTitle">
@@ -242,9 +281,8 @@
                                     <segue destination="thD-YO-WxP" kind="show" id="OCa-9c-PAu"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Caitlyn shared a drawing with you 10-1" translatesAutoresizingMaskIntoConstraints="NO" id="fAN-88-ua5">
-                                <rect key="frame" x="20" y="80" width="364" height="289"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Caitlyn shared a drawing with you 10-1" translatesAutoresizingMaskIntoConstraints="NO" id="fAN-88-ua5">
+                                <rect key="frame" x="20" y="80" width="364" height="277"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tib-rL-wyl">
                                 <rect key="frame" x="170" y="666.66666666666663" width="74" height="62"/>
@@ -257,22 +295,34 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Voice for Change Images" translatesAutoresizingMaskIntoConstraints="NO" id="LBR-0X-TJa">
+                                <rect key="frame" x="74" y="406" width="274" height="272"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="da6-rE-0hA" secondAttribute="bottom" constant="77" id="I27-IH-0ld"/>
-                            <constraint firstItem="da6-rE-0hA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="74" id="Mza-jk-Ixl"/>
-                            <constraint firstItem="tib-rL-wyl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="SUI-hv-gSM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tib-rL-wyl" secondAttribute="trailing" constant="170" id="UHv-AX-ZjA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="da6-rE-0hA" secondAttribute="trailing" constant="74" id="oo1-sd-YwC"/>
-                            <constraint firstItem="tib-rL-wyl" firstAttribute="top" secondItem="Wdr-g7-euU" secondAttribute="bottom" constant="9.6699999999999999" id="vQC-xN-rAh"/>
-                            <constraint firstItem="da6-rE-0hA" firstAttribute="top" secondItem="tib-rL-wyl" secondAttribute="bottom" constant="6" id="vYT-WX-iia"/>
-                            <constraint firstItem="da6-rE-0hA" firstAttribute="top" secondItem="tib-rL-wyl" secondAttribute="bottom" constant="6" id="zwz-df-GNN"/>
+                            <constraint firstItem="da6-rE-0hA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="74" id="9ub-Vw-tnY"/>
+                            <constraint firstItem="LBR-0X-TJa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="74" id="BGU-jy-s3k"/>
+                            <constraint firstItem="da6-rE-0hA" firstAttribute="top" secondItem="tib-rL-wyl" secondAttribute="bottom" constant="5.9999999999998863" id="Bga-LO-ghm"/>
+                            <constraint firstItem="uiU-n9-jj7" firstAttribute="trailing" secondItem="da6-rE-0hA" secondAttribute="trailing" id="D0x-8H-XUO"/>
+                            <constraint firstItem="LBR-0X-TJa" firstAttribute="top" secondItem="uiU-n9-jj7" secondAttribute="bottom" constant="8" symbolic="YES" id="GD1-iQ-wQp"/>
+                            <constraint firstItem="LBR-0X-TJa" firstAttribute="top" secondItem="fAN-88-ua5" secondAttribute="bottom" constant="49" id="Hv4-S3-uxJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uiU-n9-jj7" secondAttribute="trailing" constant="74" id="J7I-fy-OQL"/>
+                            <constraint firstItem="tib-rL-wyl" firstAttribute="centerX" secondItem="da6-rE-0hA" secondAttribute="centerX" id="Kr6-0B-7kZ"/>
+                            <constraint firstItem="da6-rE-0hA" firstAttribute="top" secondItem="LBR-0X-TJa" secondAttribute="bottom" constant="56.666666666666515" id="NMD-aq-4XU"/>
+                            <constraint firstItem="uiU-n9-jj7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="74" id="XEh-ke-iVP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="da6-rE-0hA" secondAttribute="bottom" constant="77.000000000000114" id="YVc-vM-WAH"/>
+                            <constraint firstItem="LBR-0X-TJa" firstAttribute="leading" secondItem="da6-rE-0hA" secondAttribute="leading" id="am6-hk-8aX"/>
+                            <constraint firstItem="uiU-n9-jj7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="310" id="dSY-yD-0vZ"/>
+                            <constraint firstItem="uiU-n9-jj7" firstAttribute="leading" secondItem="LBR-0X-TJa" secondAttribute="leading" id="ex3-Uh-Id9"/>
+                            <constraint firstItem="fAN-88-ua5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pxv-S4-RNg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fAN-88-ua5" secondAttribute="trailing" constant="30" id="u1z-Pg-XJO"/>
+                            <constraint firstItem="fAN-88-ua5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="36" id="uoN-Fv-L8y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LBR-0X-TJa" secondAttribute="trailing" constant="66" id="yxh-bQ-Apm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="image1" destination="Wdr-g7-euU" id="ZSD-ei-VdQ"/>
                         <outlet property="logoImage" destination="fAN-88-ua5" id="I2a-ut-yRc"/>
                         <outlet property="subHead1" destination="uiU-n9-jj7" id="phO-4u-f4B"/>
                         <outlet property="subHead2" destination="tib-rL-wyl" id="0Rj-HD-OLH"/>
@@ -290,10 +340,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="meV-cf-6Ix">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="meV-cf-6Ix">
                                 <rect key="frame" x="20" y="20" width="375" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="rfD-Dg-hvZ"/>
+                                </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Urgent Petitions">
@@ -309,16 +361,17 @@
                                     <action selector="button1:" destination="thD-YO-WxP" eventType="touchUpInside" id="8LS-7h-xuF"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Every signature counts... included below are a few petitions that have yet to reach their quota on Change.org." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwV-Xm-mro">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Every signature counts... included below are a few petitions that have yet to reach their quota on Change.org." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwV-Xm-mro">
                                 <rect key="frame" x="37" y="95" width="341" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dg-0D-Y9L">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dg-0D-Y9L">
                                 <rect key="frame" x="92" y="194" width="230" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="GAA-K9-tnb"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <state key="normal" title="Justice for Breonna Taylor">
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -328,9 +381,8 @@
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="dBb-ye-3OH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wUw-Iy-3ac">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wUw-Iy-3ac">
                                 <rect key="frame" x="85" y="229" width="244" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <state key="normal">
                                     <string key="title">Justice For Ahmuad Arbery
@@ -345,6 +397,19 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="meV-cf-6Ix" firstAttribute="centerX" secondItem="zwV-Xm-mro" secondAttribute="centerX" id="3Gm-vI-BXA"/>
+                            <constraint firstItem="meV-cf-6Ix" firstAttribute="leading" secondItem="roq-j3-NQ9" secondAttribute="leadingMargin" id="4xu-So-HHc"/>
+                            <constraint firstItem="3dg-0D-Y9L" firstAttribute="top" secondItem="zwV-Xm-mro" secondAttribute="bottom" constant="3" id="Aqq-ha-73N"/>
+                            <constraint firstItem="wUw-Iy-3ac" firstAttribute="top" secondItem="zwV-Xm-mro" secondAttribute="bottom" constant="38" id="C0e-zF-6hl"/>
+                            <constraint firstItem="meV-cf-6Ix" firstAttribute="top" secondItem="roq-j3-NQ9" secondAttribute="top" constant="20" symbolic="YES" id="LE8-nr-3WP"/>
+                            <constraint firstItem="zwV-Xm-mro" firstAttribute="leading" secondItem="aaO-wk-bGi" secondAttribute="leading" constant="37" id="UIl-aq-dDE"/>
+                            <constraint firstItem="3dg-0D-Y9L" firstAttribute="centerX" secondItem="wUw-Iy-3ac" secondAttribute="centerX" id="XxD-YI-TVW"/>
+                            <constraint firstItem="zwV-Xm-mro" firstAttribute="top" secondItem="meV-cf-6Ix" secondAttribute="bottom" constant="8" symbolic="YES" id="YaA-0w-lcm"/>
+                            <constraint firstItem="aaO-wk-bGi" firstAttribute="bottom" secondItem="3dg-0D-Y9L" secondAttribute="bottom" constant="574" id="aYv-P3-SLd"/>
+                            <constraint firstItem="zwV-Xm-mro" firstAttribute="centerX" secondItem="3dg-0D-Y9L" secondAttribute="centerX" id="qAA-cT-T4s"/>
+                            <constraint firstItem="meV-cf-6Ix" firstAttribute="centerX" secondItem="roq-j3-NQ9" secondAttribute="centerX" id="w6J-Ru-Uko"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="aaO-wk-bGi"/>
                     </view>
                     <navigationItem key="navigationItem" id="tDB-ZK-5dX"/>
@@ -365,13 +430,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Caitlyn shared a drawing with you 10-1" translatesAutoresizingMaskIntoConstraints="NO" id="3Sj-tV-YEH">
-                                <rect key="frame" x="25" y="36" width="364" height="413"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Caitlyn shared a drawing with you 10-1" translatesAutoresizingMaskIntoConstraints="NO" id="3Sj-tV-YEH">
+                                <rect key="frame" x="25" y="36" width="364" height="420"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="APj-MH-GX5">
-                                <rect key="frame" x="19" y="581" width="375" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="APj-MH-GX5">
+                                <rect key="frame" x="20" y="581" width="374" height="53"/>
                                 <color key="backgroundColor" red="0.25781530139999997" green="0.50609546900000002" blue="0.29363876579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -389,9 +452,8 @@
                                     <segue destination="1yq-OX-HLC" kind="show" id="by0-j9-x11"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1in-jz-NIt">
-                                <rect key="frame" x="19" y="486" width="375" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1in-jz-NIt">
+                                <rect key="frame" x="20" y="493" width="374" height="53"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -411,6 +473,18 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3Sj-tV-YEH" firstAttribute="top" secondItem="HKY-1G-LkN" secondAttribute="top" constant="36" id="Klb-0j-0Tu"/>
+                            <constraint firstItem="1in-jz-NIt" firstAttribute="trailing" secondItem="VTv-Ew-b5T" secondAttribute="trailingMargin" id="Z4K-Nc-FyQ"/>
+                            <constraint firstItem="APj-MH-GX5" firstAttribute="top" secondItem="1in-jz-NIt" secondAttribute="bottom" constant="35" id="cx8-3f-CMh"/>
+                            <constraint firstItem="1in-jz-NIt" firstAttribute="leading" secondItem="VTv-Ew-b5T" secondAttribute="leadingMargin" id="hzU-Ho-IxR"/>
+                            <constraint firstItem="1in-jz-NIt" firstAttribute="leading" secondItem="APj-MH-GX5" secondAttribute="leading" id="j6O-1E-uCO"/>
+                            <constraint firstItem="1in-jz-NIt" firstAttribute="top" secondItem="3Sj-tV-YEH" secondAttribute="bottom" constant="37" id="ktu-hW-idY"/>
+                            <constraint firstItem="1in-jz-NIt" firstAttribute="trailing" secondItem="APj-MH-GX5" secondAttribute="trailing" id="rnf-1u-xbP"/>
+                            <constraint firstItem="3Sj-tV-YEH" firstAttribute="centerX" secondItem="1in-jz-NIt" secondAttribute="centerX" id="uOr-1e-poF"/>
+                            <constraint firstItem="3Sj-tV-YEH" firstAttribute="leading" secondItem="HKY-1G-LkN" secondAttribute="leading" constant="25" id="vIa-MA-PuM"/>
+                            <constraint firstItem="HKY-1G-LkN" firstAttribute="bottom" secondItem="APj-MH-GX5" secondAttribute="bottom" constant="174" id="x3m-nW-omR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="HKY-1G-LkN"/>
                     </view>
                     <navigationItem key="navigationItem" id="3zp-DM-RY3"/>
@@ -757,9 +831,12 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kea-ft-6w8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kea-ft-6w8">
                                 <rect key="frame" x="37" y="119" width="341" height="62"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="Cd2-4h-Dnc"/>
+                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Black Lives Matter">
                                         <attributes>
@@ -773,11 +850,14 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fo-VH-sdL">
                                 <rect key="frame" x="150" y="209" width="114" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="Il6-Qw-wiN"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9WL-dQ-rex">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9WL-dQ-rex">
                                 <rect key="frame" x="37" y="251" width="341" height="201"/>
                                 <string key="text">#BlackLivesMatter - a Black-centered political will and movement building project - was founded in 2013 in response to the discharge of Trayvon Martin’s murderer by Alicia Garza, Patrisse Cullors, and Opal Tometi. The Black Lives Matter Foundation Inc. is a global organization in the US, UK, and Canada. They advocate for non-violent civil disobedience in protest against incidents of police brutality against African-American people. Here is the link to the organization’s website: https://blacklivesmatter.com/</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
@@ -787,6 +867,9 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CoQ-wh-4rt">
                                 <rect key="frame" x="61" y="483" width="292" height="51.666666666666629"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51.666666666666629" id="9Ks-yv-4ii"/>
+                                </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="resources">
@@ -806,6 +889,9 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9iI-WJ-811">
                                 <rect key="frame" x="61" y="565.66666666666663" width="292" height="51.666666666666629"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51.666666666666629" id="r6L-Cq-G8l"/>
+                                </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="petitions">
@@ -825,6 +911,9 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LDG-Js-YA4">
                                 <rect key="frame" x="61" y="648.33333333333337" width="292" height="51.666666666666629"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51.666666666666629" id="CEv-q5-yiR"/>
+                                </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="donations">
@@ -844,32 +933,24 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="0fo-VH-sdL" firstAttribute="top" secondItem="Kea-ft-6w8" secondAttribute="bottom" constant="28" id="1zy-BL-Gee"/>
-                            <constraint firstItem="LDG-Js-YA4" firstAttribute="top" secondItem="9iI-WJ-811" secondAttribute="bottom" constant="31" id="6nX-Ku-vQ7"/>
-                            <constraint firstItem="9iI-WJ-811" firstAttribute="top" secondItem="CoQ-wh-4rt" secondAttribute="bottom" constant="31" id="B1j-uX-L9Z"/>
-                            <constraint firstItem="Kea-ft-6w8" firstAttribute="leading" secondItem="NNW-Sr-laE" secondAttribute="leading" constant="37" id="DAz-VO-0Ed"/>
-                            <constraint firstItem="NNW-Sr-laE" firstAttribute="bottom" secondItem="Kea-ft-6w8" secondAttribute="bottom" constant="627" id="Dye-XS-ADx"/>
-                            <constraint firstItem="0fo-VH-sdL" firstAttribute="leading" secondItem="NNW-Sr-laE" secondAttribute="leading" constant="150" id="EFE-sC-sHV"/>
-                            <constraint firstItem="9WL-dQ-rex" firstAttribute="top" secondItem="0fo-VH-sdL" secondAttribute="bottom" constant="8" id="HAu-pQ-r6V"/>
-                            <constraint firstItem="NNW-Sr-laE" firstAttribute="trailing" secondItem="9iI-WJ-811" secondAttribute="trailing" constant="61" id="Ihr-fK-TbH"/>
-                            <constraint firstItem="CoQ-wh-4rt" firstAttribute="leading" secondItem="NNW-Sr-laE" secondAttribute="leading" constant="61" id="JRM-y9-KmE"/>
-                            <constraint firstItem="NNW-Sr-laE" firstAttribute="bottom" secondItem="0fo-VH-sdL" secondAttribute="bottom" constant="565" id="LLN-IO-bYQ"/>
-                            <constraint firstItem="CoQ-wh-4rt" firstAttribute="top" secondItem="9WL-dQ-rex" secondAttribute="bottom" constant="31" id="LSF-fa-b0e"/>
-                            <constraint firstItem="NNW-Sr-laE" firstAttribute="trailing" secondItem="Kea-ft-6w8" secondAttribute="trailing" constant="36" id="ROa-Wa-n50"/>
-                            <constraint firstItem="NNW-Sr-laE" firstAttribute="bottom" secondItem="9WL-dQ-rex" secondAttribute="bottom" constant="356" id="XU1-sC-S7h"/>
-                            <constraint firstItem="NNW-Sr-laE" firstAttribute="trailing" secondItem="CoQ-wh-4rt" secondAttribute="trailing" constant="61" id="aJq-q3-Yt3"/>
-                            <constraint firstItem="NNW-Sr-laE" firstAttribute="trailing" secondItem="LDG-Js-YA4" secondAttribute="trailing" constant="61" id="ahe-rm-buS"/>
-                            <constraint firstItem="Kea-ft-6w8" firstAttribute="top" secondItem="NNW-Sr-laE" secondAttribute="top" constant="119" id="dGp-8O-pzh"/>
-                            <constraint firstItem="NNW-Sr-laE" firstAttribute="bottom" secondItem="LDG-Js-YA4" secondAttribute="bottom" constant="108" id="e1B-TP-MBG"/>
-                            <constraint firstItem="9WL-dQ-rex" firstAttribute="leading" secondItem="NNW-Sr-laE" secondAttribute="leading" constant="37" id="eyN-bD-R58"/>
-                            <constraint firstItem="Kea-ft-6w8" firstAttribute="top" secondItem="NNW-Sr-laE" secondAttribute="top" constant="119" id="gDY-8T-vKB"/>
-                            <constraint firstItem="9iI-WJ-811" firstAttribute="top" secondItem="CoQ-wh-4rt" secondAttribute="bottom" constant="31" id="gHo-yO-3yh"/>
-                            <constraint firstItem="NNW-Sr-laE" firstAttribute="trailing" secondItem="0fo-VH-sdL" secondAttribute="trailing" constant="150" id="gv9-dD-u3g"/>
-                            <constraint firstItem="LDG-Js-YA4" firstAttribute="top" secondItem="9iI-WJ-811" secondAttribute="bottom" constant="31" id="kNd-oH-Xya"/>
-                            <constraint firstItem="LDG-Js-YA4" firstAttribute="leading" secondItem="NNW-Sr-laE" secondAttribute="leading" constant="61" id="kPz-u9-eFZ"/>
-                            <constraint firstItem="NNW-Sr-laE" firstAttribute="trailing" secondItem="9WL-dQ-rex" secondAttribute="trailing" constant="36" id="o27-wL-Nk3"/>
-                            <constraint firstItem="9iI-WJ-811" firstAttribute="leading" secondItem="NNW-Sr-laE" secondAttribute="leading" constant="61" id="wMc-9c-Iwu"/>
-                            <constraint firstItem="0fo-VH-sdL" firstAttribute="top" secondItem="Kea-ft-6w8" secondAttribute="bottom" constant="28" id="y8j-Nf-X8d"/>
+                            <constraint firstItem="9iI-WJ-811" firstAttribute="trailing" secondItem="LDG-Js-YA4" secondAttribute="trailing" id="2h9-Of-QZZ"/>
+                            <constraint firstItem="CoQ-wh-4rt" firstAttribute="leading" secondItem="9iI-WJ-811" secondAttribute="leading" id="3Cc-Cl-n9D"/>
+                            <constraint firstItem="0fo-VH-sdL" firstAttribute="top" secondItem="Kea-ft-6w8" secondAttribute="bottom" constant="28" id="BkS-QH-vFI"/>
+                            <constraint firstItem="9WL-dQ-rex" firstAttribute="centerX" secondItem="CoQ-wh-4rt" secondAttribute="centerX" id="GZ2-Rl-XHE"/>
+                            <constraint firstItem="LDG-Js-YA4" firstAttribute="top" secondItem="9iI-WJ-811" secondAttribute="bottom" constant="31.000000000000114" id="IOd-bC-eVK"/>
+                            <constraint firstItem="CoQ-wh-4rt" firstAttribute="top" secondItem="9WL-dQ-rex" secondAttribute="bottom" constant="31" id="NYf-NY-18j"/>
+                            <constraint firstItem="CoQ-wh-4rt" firstAttribute="trailing" secondItem="9iI-WJ-811" secondAttribute="trailing" id="OXN-Ij-7mH"/>
+                            <constraint firstItem="Kea-ft-6w8" firstAttribute="top" secondItem="NNW-Sr-laE" secondAttribute="top" constant="119" id="Oka-85-8r7"/>
+                            <constraint firstItem="9iI-WJ-811" firstAttribute="leading" secondItem="LDG-Js-YA4" secondAttribute="leading" id="PMk-RP-nLp"/>
+                            <constraint firstItem="9WL-dQ-rex" firstAttribute="top" secondItem="0fo-VH-sdL" secondAttribute="bottom" constant="8" symbolic="YES" id="PnK-io-W9A"/>
+                            <constraint firstItem="CoQ-wh-4rt" firstAttribute="leading" secondItem="NNW-Sr-laE" secondAttribute="leading" constant="61" id="SC4-J4-pgO"/>
+                            <constraint firstItem="Kea-ft-6w8" firstAttribute="centerX" secondItem="rxc-jo-GEj" secondAttribute="centerX" id="VN3-dM-yYt"/>
+                            <constraint firstItem="Kea-ft-6w8" firstAttribute="centerX" secondItem="0fo-VH-sdL" secondAttribute="centerX" id="WjD-YS-5Gj"/>
+                            <constraint firstItem="Kea-ft-6w8" firstAttribute="leading" secondItem="NNW-Sr-laE" secondAttribute="leading" constant="37" id="YsD-dC-aH1"/>
+                            <constraint firstItem="9iI-WJ-811" firstAttribute="top" secondItem="CoQ-wh-4rt" secondAttribute="bottom" constant="31.000000000000114" id="dyR-5I-ohQ"/>
+                            <constraint firstItem="NNW-Sr-laE" firstAttribute="bottom" secondItem="LDG-Js-YA4" secondAttribute="bottom" constant="107.99999999999989" id="g8V-sX-1Cb"/>
+                            <constraint firstItem="Kea-ft-6w8" firstAttribute="trailing" secondItem="9WL-dQ-rex" secondAttribute="trailing" id="wHQ-NY-rfd"/>
+                            <constraint firstItem="Kea-ft-6w8" firstAttribute="leading" secondItem="9WL-dQ-rex" secondAttribute="leading" id="xXX-pe-Ofe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NNW-Sr-laE"/>
                     </view>
@@ -995,10 +1076,12 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YlH-hu-Ncd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YlH-hu-Ncd">
                                 <rect key="frame" x="64" y="522" width="280" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="4HN-Pf-kAv"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="29"/>
                                 <state key="normal" title="Climate Change">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -1007,10 +1090,12 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <segue destination="22U-Gp-Upy" kind="show" id="Ddq-en-1jU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqg-8l-U8t">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqg-8l-U8t">
                                 <rect key="frame" x="64" y="641" width="280" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="7aX-w7-pV0"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="29"/>
                                 <state key="normal" title="Human Rights">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -1019,10 +1104,12 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <segue destination="z7s-8Q-QiF" kind="show" id="9Ql-Mw-pM6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8sz-jS-NQx">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8sz-jS-NQx">
                                 <rect key="frame" x="64" y="402" width="280" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="N3J-r6-wOl"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="29"/>
                                 <state key="normal" title="Black Lives Matter ">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -1031,19 +1118,37 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <segue destination="tUW-wG-J0o" kind="show" id="4QA-Mk-YFF"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Caitlyn shared a drawing with you 10-1" translatesAutoresizingMaskIntoConstraints="NO" id="DPE-40-Q94">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Caitlyn shared a drawing with you 10-1" translatesAutoresizingMaskIntoConstraints="NO" id="DPE-40-Q94">
                                 <rect key="frame" x="44" y="11" width="320" height="257"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="257" id="RAi-xR-THw"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a topic, EDUCATE YOURSELF, be part of the solution" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pn-jO-f0f">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Choose a topic, EDUCATE YOURSELF, be part of the solution" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pn-jO-f0f">
                                 <rect key="frame" x="20" y="232" width="374" height="149"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YlH-hu-Ncd" firstAttribute="top" secondItem="8sz-jS-NQx" secondAttribute="bottom" constant="48" id="06p-EU-8UF"/>
+                            <constraint firstItem="DPE-40-Q94" firstAttribute="leading" secondItem="y7f-o8-olt" secondAttribute="leading" constant="44" id="BB8-bQ-ayt"/>
+                            <constraint firstItem="8sz-jS-NQx" firstAttribute="leading" secondItem="YlH-hu-Ncd" secondAttribute="leading" id="Dcj-Si-KzB"/>
+                            <constraint firstItem="8pn-jO-f0f" firstAttribute="top" secondItem="y7f-o8-olt" secondAttribute="top" constant="232" id="De1-Ps-hoE"/>
+                            <constraint firstItem="DPE-40-Q94" firstAttribute="centerX" secondItem="8sz-jS-NQx" secondAttribute="centerX" id="EUr-zU-zUh"/>
+                            <constraint firstItem="y7f-o8-olt" firstAttribute="bottom" secondItem="qqg-8l-U8t" secondAttribute="bottom" constant="98" id="cJG-og-Wie"/>
+                            <constraint firstItem="y7f-o8-olt" firstAttribute="trailing" secondItem="DPE-40-Q94" secondAttribute="trailing" constant="50" id="lit-zf-nUf"/>
+                            <constraint firstItem="DPE-40-Q94" firstAttribute="top" secondItem="y7f-o8-olt" secondAttribute="top" constant="11" id="n0Q-he-ISa"/>
+                            <constraint firstItem="8sz-jS-NQx" firstAttribute="leading" secondItem="y7f-o8-olt" secondAttribute="leading" constant="64" id="psN-CL-7Hn"/>
+                            <constraint firstItem="YlH-hu-Ncd" firstAttribute="trailing" secondItem="qqg-8l-U8t" secondAttribute="trailing" id="qWJ-ms-WEs"/>
+                            <constraint firstItem="qqg-8l-U8t" firstAttribute="top" secondItem="YlH-hu-Ncd" secondAttribute="bottom" constant="50" id="qr2-ts-YHT"/>
+                            <constraint firstItem="8sz-jS-NQx" firstAttribute="trailing" secondItem="YlH-hu-Ncd" secondAttribute="trailing" id="sQr-Xf-khk"/>
+                            <constraint firstItem="YlH-hu-Ncd" firstAttribute="leading" secondItem="qqg-8l-U8t" secondAttribute="leading" id="wa4-PB-9n2"/>
+                            <constraint firstItem="8pn-jO-f0f" firstAttribute="leading" secondItem="du7-2G-LC9" secondAttribute="leadingMargin" id="yAC-0A-kC8"/>
+                            <constraint firstItem="8sz-jS-NQx" firstAttribute="top" secondItem="8pn-jO-f0f" secondAttribute="bottom" constant="21" id="zGz-zL-zQw"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="y7f-o8-olt"/>
                     </view>
                     <navigationItem key="navigationItem" id="a5M-GQ-Muu"/>
@@ -1060,10 +1165,12 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCt-Lk-i7u">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCt-Lk-i7u">
                                 <rect key="frame" x="37" y="111" width="341" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="bOY-gx-TWx"/>
+                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Human Rights">
                                         <attributes>
@@ -1075,25 +1182,28 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sf3-nf-Tk1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sf3-nf-Tk1">
                                 <rect key="frame" x="37" y="238" width="341" height="207"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="207" id="Qms-Ag-kzd"/>
+                                </constraints>
                                 <string key="text">The topic of human rights encompasses violations of human rights according to the Universal Declaration of Human Rights, a document established as a common standard of all achievements for all peoples and nations by the United Nations General Assembly in Paris on December 10, 1948. Read more about the Universal Declaration of Human Rights here: https://www.un.org/en/universal-declaration-human-rights/</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Overview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10O-8E-i0q">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10O-8E-i0q">
                                 <rect key="frame" x="150" y="210" width="114" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QI1-vV-eCQ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QI1-vV-eCQ">
                                 <rect key="frame" x="61" y="487" width="292" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="acx-TZ-Wwd"/>
+                                </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="resources">
@@ -1110,10 +1220,12 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <segue destination="S0o-SF-stI" kind="show" id="zV7-SF-vzA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JGL-xt-VH0">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JGL-xt-VH0">
                                 <rect key="frame" x="61" y="598" width="292" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="TJk-O2-RI9"/>
+                                </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="petitions">
@@ -1130,9 +1242,8 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <segue destination="khM-ZU-mIX" kind="show" id="32D-sG-amq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I0n-0x-aAH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I0n-0x-aAH">
                                 <rect key="frame" x="61" y="705" width="292" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -1152,6 +1263,26 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xCt-Lk-i7u" firstAttribute="trailing" secondItem="Sf3-nf-Tk1" secondAttribute="trailing" id="1cl-Ux-w0r"/>
+                            <constraint firstItem="xCt-Lk-i7u" firstAttribute="leading" secondItem="Sf3-nf-Tk1" secondAttribute="leading" id="3wh-ZL-aYN"/>
+                            <constraint firstItem="xCt-Lk-i7u" firstAttribute="leading" secondItem="aKu-fa-wdK" secondAttribute="leading" constant="37" id="6M9-jQ-8zA"/>
+                            <constraint firstItem="QI1-vV-eCQ" firstAttribute="top" secondItem="Sf3-nf-Tk1" secondAttribute="bottom" constant="42" id="ADd-6X-vfe"/>
+                            <constraint firstItem="xCt-Lk-i7u" firstAttribute="centerX" secondItem="I0n-0x-aAH" secondAttribute="centerX" id="D2I-kk-hec"/>
+                            <constraint firstItem="xCt-Lk-i7u" firstAttribute="top" secondItem="aKu-fa-wdK" secondAttribute="top" constant="111" id="JGF-a7-YWW"/>
+                            <constraint firstItem="JGL-xt-VH0" firstAttribute="top" secondItem="QI1-vV-eCQ" secondAttribute="bottom" constant="43" id="Nj3-tI-uu7"/>
+                            <constraint firstItem="xCt-Lk-i7u" firstAttribute="centerX" secondItem="QI1-vV-eCQ" secondAttribute="centerX" id="OlS-OP-vCq"/>
+                            <constraint firstItem="10O-8E-i0q" firstAttribute="top" secondItem="xCt-Lk-i7u" secondAttribute="bottom" constant="31" id="Xet-Nf-gAm"/>
+                            <constraint firstItem="xCt-Lk-i7u" firstAttribute="centerX" secondItem="JGL-xt-VH0" secondAttribute="centerX" id="Ywi-Xb-Yum"/>
+                            <constraint firstItem="xCt-Lk-i7u" firstAttribute="centerX" secondItem="10O-8E-i0q" secondAttribute="centerX" id="jMS-yW-2mo"/>
+                            <constraint firstItem="I0n-0x-aAH" firstAttribute="top" secondItem="JGL-xt-VH0" secondAttribute="bottom" constant="39" id="kWn-fp-WwT"/>
+                            <constraint firstItem="JGL-xt-VH0" firstAttribute="leading" secondItem="I0n-0x-aAH" secondAttribute="leading" id="kcA-jH-Lwq"/>
+                            <constraint firstItem="xCt-Lk-i7u" firstAttribute="centerX" secondItem="srL-88-cIL" secondAttribute="centerX" id="mtR-ZQ-BGn"/>
+                            <constraint firstItem="Sf3-nf-Tk1" firstAttribute="top" secondItem="xCt-Lk-i7u" secondAttribute="bottom" constant="59" id="oYr-cx-Gnz"/>
+                            <constraint firstItem="QI1-vV-eCQ" firstAttribute="leading" secondItem="JGL-xt-VH0" secondAttribute="leading" id="qdy-8G-l3S"/>
+                            <constraint firstItem="aKu-fa-wdK" firstAttribute="bottom" secondItem="I0n-0x-aAH" secondAttribute="bottom" constant="35" id="uOL-J0-Avr"/>
+                            <constraint firstItem="QI1-vV-eCQ" firstAttribute="leading" secondItem="aKu-fa-wdK" secondAttribute="leading" constant="61" id="zr8-qh-r1E"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="aKu-fa-wdK"/>
                     </view>
                     <navigationItem key="navigationItem" id="l0M-NH-cqo"/>
