@@ -26,6 +26,7 @@
 		186457C724BFFC54009A97F9 /* BlackLivesMatterDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186457C624BFFC54009A97F9 /* BlackLivesMatterDonationsViewController.swift */; };
 		186457C924C0D158009A97F9 /* BlackLivesMatterPetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186457C824C0D158009A97F9 /* BlackLivesMatterPetitionsViewController.swift */; };
 		186457CB24C0D176009A97F9 /* BlackLivesMatterResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186457CA24C0D176009A97F9 /* BlackLivesMatterResourcesViewController.swift */; };
+		186457CD24C0F5F1009A97F9 /* BlackLivesMatterMorePodcastsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186457CC24C0F5F1009A97F9 /* BlackLivesMatterMorePodcastsViewController.swift */; };
 		85E83A3224C03E4D00C687DC /* ClimateChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E83A3124C03E4D00C687DC /* ClimateChangeViewController.swift */; };
 		85E83A3424C0447400C687DC /* ClimateChangePetitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E83A3324C0447400C687DC /* ClimateChangePetitionViewController.swift */; };
 		85E83A3624C0449200C687DC /* ClimateChangeDonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E83A3524C0449200C687DC /* ClimateChangeDonateViewController.swift */; };
@@ -77,6 +78,7 @@
 		186457C624BFFC54009A97F9 /* BlackLivesMatterDonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackLivesMatterDonationsViewController.swift; sourceTree = "<group>"; };
 		186457C824C0D158009A97F9 /* BlackLivesMatterPetitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackLivesMatterPetitionsViewController.swift; sourceTree = "<group>"; };
 		186457CA24C0D176009A97F9 /* BlackLivesMatterResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackLivesMatterResourcesViewController.swift; sourceTree = "<group>"; };
+		186457CC24C0F5F1009A97F9 /* BlackLivesMatterMorePodcastsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackLivesMatterMorePodcastsViewController.swift; sourceTree = "<group>"; };
 		85E83A3124C03E4D00C687DC /* ClimateChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeViewController.swift; sourceTree = "<group>"; };
 		85E83A3324C0447400C687DC /* ClimateChangePetitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangePetitionViewController.swift; sourceTree = "<group>"; };
 		85E83A3524C0449200C687DC /* ClimateChangeDonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeDonateViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				04489F3624BE4B4700BB323D /* Voices_for_Change.xcdatamodeld */,
 				186457C824C0D158009A97F9 /* BlackLivesMatterPetitionsViewController.swift */,
 				186457CA24C0D176009A97F9 /* BlackLivesMatterResourcesViewController.swift */,
+				186457CC24C0F5F1009A97F9 /* BlackLivesMatterMorePodcastsViewController.swift */,
 			);
 			path = "Voices for Change";
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				186457CB24C0D176009A97F9 /* BlackLivesMatterResourcesViewController.swift in Sources */,
 				186457BF24BED6A0009A97F9 /* ChooseTopicViewController.swift in Sources */,
 				85E83A3824C044B800C687DC /* ClimateChangeResourcesViewController.swift in Sources */,
+				186457CD24C0F5F1009A97F9 /* BlackLivesMatterMorePodcastsViewController.swift in Sources */,
 				04128AED24BECE410074F3D7 /* HumRightsResourcesViewController.swift in Sources */,
 				85E83A3624C0449200C687DC /* ClimateChangeDonateViewController.swift in Sources */,
 				04128AF124BED2D70074F3D7 /* HumRightsDonationsViewController.swift in Sources */,
