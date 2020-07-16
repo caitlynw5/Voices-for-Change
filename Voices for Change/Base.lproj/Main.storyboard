@@ -7,16 +7,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Black Lives Matter Petitions View Controller-->
         <scene sceneID="EYb-Jk-FJE">
             <objects>
-                <viewController id="aQF-d3-QNh" sceneMemberID="viewController">
+                <viewController id="aQF-d3-QNh" customClass="BlackLivesMatterPetitionsViewController" customModule="Voices_for_Change" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ho1-Js-dhr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFQ-9L-Orh">
-                                <rect key="frame" x="37" y="105" width="341" height="62"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFQ-9L-Orh">
+                                <rect key="frame" x="37" y="105" width="341" height="48"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Black Lives Matter">
@@ -30,23 +30,71 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Petitions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luI-Ep-Zd5">
-                                <rect key="frame" x="37" y="201" width="104" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="VGn-3F-AuH"/>
-                                </constraints>
+                                <rect key="frame" x="37" y="187" width="104" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="BiO-Qg-MnP">
+                                <rect key="frame" x="37" y="229" width="341" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Charge the Murderer of Marshae Jones and her unborn baby">
+                                    <color key="titleColor" red="0.25781530139999997" green="0.50609546900000002" blue="0.29363876579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="marshaeJones:" destination="aQF-d3-QNh" eventType="touchUpInside" id="pxs-ON-PTJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQX-mc-1DD">
+                                <rect key="frame" x="37" y="287" width="247" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Tell Congress: Protect Black Voters">
+                                    <color key="titleColor" red="0.25781530139999997" green="0.50609546900000002" blue="0.29363876579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tellCongress:" destination="aQF-d3-QNh" eventType="touchUpInside" id="i6o-mY-gJ9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B13-ax-ger">
+                                <rect key="frame" x="39" y="376" width="48" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.25781530139999997" green="0.50609546900000002" blue="0.29363876579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KlD-rG-YmT">
+                                <rect key="frame" x="39" y="424" width="48" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.25781530139999997" green="0.50609546900000002" blue="0.29363876579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VvQ-h9-KVo">
+                                <rect key="frame" x="37" y="329" width="242" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Reopen Kendrick Johnson's Case ">
+                                    <color key="titleColor" red="0.25781530139999997" green="0.50609546900000002" blue="0.29363876579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="kendrickJohnson:" destination="aQF-d3-QNh" eventType="touchUpInside" id="iQ6-aP-l9D"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="lMV-YV-QCY" firstAttribute="bottom" secondItem="luI-Ep-Zd5" secondAttribute="bottom" constant="573" id="Dj6-yj-7oo"/>
-                            <constraint firstItem="EFQ-9L-Orh" firstAttribute="centerX" secondItem="Ho1-Js-dhr" secondAttribute="centerX" id="K75-eW-KZG"/>
-                            <constraint firstItem="EFQ-9L-Orh" firstAttribute="leading" secondItem="luI-Ep-Zd5" secondAttribute="leading" id="WBA-nc-SAb"/>
-                            <constraint firstItem="luI-Ep-Zd5" firstAttribute="top" secondItem="EFQ-9L-Orh" secondAttribute="bottom" constant="34" id="bdP-aI-jTI"/>
-                            <constraint firstItem="EFQ-9L-Orh" firstAttribute="top" secondItem="lMV-YV-QCY" secondAttribute="top" constant="105" id="c3Q-zl-z8f"/>
-                            <constraint firstItem="EFQ-9L-Orh" firstAttribute="leading" secondItem="lMV-YV-QCY" secondAttribute="leading" constant="37" id="nZD-kc-Py6"/>
+                            <constraint firstItem="lMV-YV-QCY" firstAttribute="trailing" secondItem="EFQ-9L-Orh" secondAttribute="trailing" constant="36" id="3Jd-c9-2fv"/>
+                            <constraint firstItem="luI-Ep-Zd5" firstAttribute="leading" secondItem="lMV-YV-QCY" secondAttribute="leading" constant="37" id="JeY-fY-kR5"/>
+                            <constraint firstItem="luI-Ep-Zd5" firstAttribute="top" secondItem="EFQ-9L-Orh" secondAttribute="bottom" constant="34" id="PAQ-wX-u29"/>
+                            <constraint firstItem="lMV-YV-QCY" firstAttribute="trailing" secondItem="luI-Ep-Zd5" secondAttribute="trailing" constant="273" id="WrL-zc-sud"/>
+                            <constraint firstItem="lMV-YV-QCY" firstAttribute="bottom" secondItem="luI-Ep-Zd5" secondAttribute="bottom" constant="587" id="Yem-fM-yc6"/>
+                            <constraint firstItem="EFQ-9L-Orh" firstAttribute="top" secondItem="lMV-YV-QCY" secondAttribute="top" constant="105" id="m5q-wB-Th5"/>
+                            <constraint firstItem="EFQ-9L-Orh" firstAttribute="leading" secondItem="lMV-YV-QCY" secondAttribute="leading" constant="37" id="ucz-IG-EMg"/>
+                            <constraint firstItem="luI-Ep-Zd5" firstAttribute="top" secondItem="EFQ-9L-Orh" secondAttribute="bottom" constant="34" id="zgv-bR-q0S"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lMV-YV-QCY"/>
                     </view>
@@ -54,7 +102,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K7C-eh-xTo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-71" y="2431"/>
+            <point key="canvasLocation" x="-71.014492753623188" y="2430.1339285714284"/>
         </scene>
         <!--Black Lives Matter Donations View Controller-->
         <scene sceneID="OZ9-3T-Mb6">
@@ -64,8 +112,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8O-eG-QkV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8O-eG-QkV">
                                 <rect key="frame" x="37" y="69" width="340" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Black Lives Matter">
@@ -78,64 +127,54 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Donations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7a-OE-ryn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Donations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7a-OE-ryn">
                                 <rect key="frame" x="37" y="136" width="123" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="aKz-oG-vA7"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNM-TI-gkP">
-                                <rect key="frame" x="37" y="178" width="308" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="mwn-jw-m1u"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNM-TI-gkP">
+                                <rect key="frame" x="68" y="181" width="246" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                 <state key="normal" title="#HomelessBlackTransWomenFund">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.25781530139999997" green="0.50609546900000002" blue="0.29363876579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="homelessBlackTransWomen:" destination="97q-VA-3Sr" eventType="touchUpInside" id="h9C-tE-d8t"/>
                                     <action selector="homelessblackTransWomen:" destination="Ess-41-YIh" eventType="touchUpInside" id="FCm-UR-KGE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHL-aw-mFO">
-                                <rect key="frame" x="37" y="226" width="129" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="CxJ-eg-ayM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHL-aw-mFO">
+                                <rect key="frame" x="68" y="223" width="103" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                 <state key="normal" title="Sybrina Fulton">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.24591094259999999" green="0.48255443570000001" blue="0.28269910809999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="sybrinaFulton:" destination="Ess-41-YIh" eventType="touchUpInside" id="u0C-8a-3G2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gC-uM-vg7">
-                                <rect key="frame" x="37" y="274" width="314" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="P0V-6b-jww"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gC-uM-vg7">
+                                <rect key="frame" x="69" y="277" width="251" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                 <state key="normal" title="Destiny Harrison &amp; Dream's Legacy">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.25781530139999997" green="0.50609546900000002" blue="0.29363876579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="destinyHarrison:" destination="Ess-41-YIh" eventType="touchUpInside" id="DO5-a5-5Yd"/>
                                     <action selector="sybrinaFulton:" destination="Ess-41-YIh" eventType="touchUpInside" id="CJr-Ag-YFD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60Z-7s-cjm">
-                                <rect key="frame" x="37" y="322" width="246" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="QQx-fQ-ssr"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60Z-7s-cjm">
+                                <rect key="frame" x="68" y="319" width="197" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                 <state key="normal" title="In Memory of Tony Mcdade">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.25781530139999997" green="0.50609546900000002" blue="0.29363876579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="destinyHarrison:" destination="Ess-41-YIh" eventType="touchUpInside" id="FvP-6X-bi1"/>
@@ -143,14 +182,12 @@
                                     <action selector="tonyMcdade:" destination="Ess-41-YIh" eventType="touchUpInside" id="OcA-Cf-zkM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tj2-jP-bBh">
-                                <rect key="frame" x="37" y="370" width="145" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="1nX-IH-Mam"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tj2-jP-bBh">
+                                <rect key="frame" x="68" y="368" width="116" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                 <state key="normal" title="I Run with Maud">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.25781530139999997" green="0.50609546900000002" blue="0.29363876579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="destinyHarrison:" destination="Ess-41-YIh" eventType="touchUpInside" id="UcS-Cu-jIS"/>
@@ -161,24 +198,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="v7a-OE-ryn" firstAttribute="leading" secondItem="XNM-TI-gkP" secondAttribute="leading" id="56j-me-3cf"/>
-                            <constraint firstItem="v7a-OE-ryn" firstAttribute="top" secondItem="h8O-eG-QkV" secondAttribute="bottom" constant="10" id="AnO-VD-loz"/>
-                            <constraint firstItem="d5y-Kq-45a" firstAttribute="bottom" secondItem="tj2-jP-bBh" secondAttribute="bottom" constant="398" id="BZC-A9-ISM"/>
-                            <constraint firstItem="60Z-7s-cjm" firstAttribute="top" secondItem="2gC-uM-vg7" secondAttribute="bottom" constant="8" symbolic="YES" id="Jh2-Qh-P6V"/>
-                            <constraint firstItem="XNM-TI-gkP" firstAttribute="leading" secondItem="VHL-aw-mFO" secondAttribute="leading" id="MRr-eV-SRF"/>
-                            <constraint firstItem="h8O-eG-QkV" firstAttribute="centerX" secondItem="xR4-HQ-dzl" secondAttribute="centerX" id="Na7-Sx-fb9"/>
-                            <constraint firstItem="VHL-aw-mFO" firstAttribute="top" secondItem="XNM-TI-gkP" secondAttribute="bottom" constant="8" symbolic="YES" id="R3V-fw-DsE"/>
-                            <constraint firstItem="tj2-jP-bBh" firstAttribute="top" secondItem="60Z-7s-cjm" secondAttribute="bottom" constant="8" symbolic="YES" id="SEd-u8-LAy"/>
-                            <constraint firstItem="h8O-eG-QkV" firstAttribute="top" secondItem="d5y-Kq-45a" secondAttribute="top" constant="69" id="cMo-TX-apj"/>
-                            <constraint firstItem="XNM-TI-gkP" firstAttribute="top" secondItem="v7a-OE-ryn" secondAttribute="bottom" constant="8" symbolic="YES" id="cbV-jI-set"/>
-                            <constraint firstItem="h8O-eG-QkV" firstAttribute="leading" secondItem="v7a-OE-ryn" secondAttribute="leading" id="dPH-bx-1nt"/>
-                            <constraint firstItem="60Z-7s-cjm" firstAttribute="leading" secondItem="tj2-jP-bBh" secondAttribute="leading" id="dlk-I6-dVe"/>
-                            <constraint firstItem="h8O-eG-QkV" firstAttribute="leading" secondItem="d5y-Kq-45a" secondAttribute="leading" constant="37" id="lf3-Ve-Xxs"/>
-                            <constraint firstItem="VHL-aw-mFO" firstAttribute="leading" secondItem="2gC-uM-vg7" secondAttribute="leading" id="qoD-2c-F4u"/>
-                            <constraint firstItem="2gC-uM-vg7" firstAttribute="top" secondItem="VHL-aw-mFO" secondAttribute="bottom" constant="8" symbolic="YES" id="r14-xQ-weu"/>
-                            <constraint firstItem="2gC-uM-vg7" firstAttribute="leading" secondItem="60Z-7s-cjm" secondAttribute="leading" id="vkQ-pV-sPH"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="d5y-Kq-45a"/>
                     </view>
                     <navigationItem key="navigationItem" id="wer-yn-pr3"/>
@@ -188,10 +207,10 @@
             </objects>
             <point key="canvasLocation" x="790" y="2432"/>
         </scene>
-        <!--View Controller-->
+        <!--Black Lives Matter Resources View Controller-->
         <scene sceneID="UqE-rl-0zw">
             <objects>
-                <viewController id="39o-77-LpQ" sceneMemberID="viewController">
+                <viewController id="39o-77-LpQ" customClass="BlackLivesMatterResourcesViewController" customModule="Voices_for_Change" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pRi-yL-xMQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -210,13 +229,53 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resources" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dg-y1-t7W">
-                                <rect key="frame" x="37" y="174" width="127" height="34"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Resources" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dg-y1-t7W">
+                                <rect key="frame" x="37" y="158" width="127" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="RDK-EC-DYa"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcQ-cl-29K">
+                                <rect key="frame" x="37" y="200" width="341" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Books" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0s-Nd-SaK">
+                                <rect key="frame" x="37" y="292" width="341" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Videos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zde-5I-leh">
+                                <rect key="frame" x="37" y="380" width="341" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Podcast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrA-6B-GMh">
+                                <rect key="frame" x="37" y="474" width="341" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instagram Accounts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pY-Il-jEE">
+                                <rect key="frame" x="37" y="560" width="341" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -235,7 +294,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Ao-dY-DZr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1699" y="2431"/>
+            <point key="canvasLocation" x="1698.5507246376812" y="2430.1339285714284"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -474,12 +533,17 @@
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="1in-jz-NIt" firstAttribute="leading" secondItem="HKY-1G-LkN" secondAttribute="leading" constant="20" id="9iJ-gb-vEP"/>
+                            <constraint firstItem="HKY-1G-LkN" firstAttribute="trailing" secondItem="3Sj-tV-YEH" secondAttribute="trailing" constant="25" id="FiM-RL-Aqi"/>
+                            <constraint firstItem="APj-MH-GX5" firstAttribute="leading" secondItem="HKY-1G-LkN" secondAttribute="leading" constant="20" id="GXh-sk-bjQ"/>
                             <constraint firstItem="3Sj-tV-YEH" firstAttribute="top" secondItem="HKY-1G-LkN" secondAttribute="top" constant="36" id="Klb-0j-0Tu"/>
+                            <constraint firstItem="HKY-1G-LkN" firstAttribute="trailing" secondItem="APj-MH-GX5" secondAttribute="trailing" constant="20" id="O1w-5o-l31"/>
                             <constraint firstItem="1in-jz-NIt" firstAttribute="trailing" secondItem="VTv-Ew-b5T" secondAttribute="trailingMargin" id="Z4K-Nc-FyQ"/>
                             <constraint firstItem="APj-MH-GX5" firstAttribute="top" secondItem="1in-jz-NIt" secondAttribute="bottom" constant="35" id="cx8-3f-CMh"/>
                             <constraint firstItem="1in-jz-NIt" firstAttribute="leading" secondItem="VTv-Ew-b5T" secondAttribute="leadingMargin" id="hzU-Ho-IxR"/>
                             <constraint firstItem="1in-jz-NIt" firstAttribute="leading" secondItem="APj-MH-GX5" secondAttribute="leading" id="j6O-1E-uCO"/>
                             <constraint firstItem="1in-jz-NIt" firstAttribute="top" secondItem="3Sj-tV-YEH" secondAttribute="bottom" constant="37" id="ktu-hW-idY"/>
+                            <constraint firstItem="HKY-1G-LkN" firstAttribute="trailing" secondItem="1in-jz-NIt" secondAttribute="trailing" constant="20" id="lND-tS-kzW"/>
                             <constraint firstItem="1in-jz-NIt" firstAttribute="trailing" secondItem="APj-MH-GX5" secondAttribute="trailing" id="rnf-1u-xbP"/>
                             <constraint firstItem="3Sj-tV-YEH" firstAttribute="centerX" secondItem="1in-jz-NIt" secondAttribute="centerX" id="uOr-1e-poF"/>
                             <constraint firstItem="3Sj-tV-YEH" firstAttribute="leading" secondItem="HKY-1G-LkN" secondAttribute="leading" constant="25" id="vIa-MA-PuM"/>
@@ -509,7 +573,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Climate Change">
+                                    <fragment content="The Environment">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="35" name="Avenir-Medium"/>
@@ -532,6 +596,196 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Brv-o6-zve">
+                                <rect key="frame" x="40" y="173" width="348" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="The Global Petition To Protect The Amazon">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="eTB-Y4-Qwc"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="HwS-X7-o2D"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Phc-fi-OA5"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="jNz-9V-9E8"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="AMc-4R-0n8"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="OGM-IB-AKL"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="yMg-DR-VzR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7EE-bJ-NFg">
+                                <rect key="frame" x="102" y="260" width="224" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="Caribe Sur Libre De Plástico">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="CaV-WZ-xkM"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="S6H-pC-qbx"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="UNC-39-6RX"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="i0Z-RF-CQc"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="aeL-ta-1RX"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="roJ-s7-UfL"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="itV-78-PzV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zb-pO-VRj">
+                                <rect key="frame" x="9" y="281" width="412" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal">
+                                    <string key="title">Children demand Declaration of a National Climate
+Emergency and Tackling of Climate Change
+</string>
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="hMu-t0-hMn"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="OUa-tN-EVm"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="l1m-1V-K5U"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="tJz-tP-gR8"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="gPw-gb-KXk"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="fxf-uF-qtn"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="GYv-7L-bs2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G7W-Ng-5at">
+                                <rect key="frame" x="65" y="220" width="306" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="Put climate change lessons in schools!">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Iox-aN-zEn"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="VXD-QD-CZC"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="dpq-if-JZQ"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="lsT-9G-gk4"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="j1X-er-ghd"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="xnP-Vg-UAY"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="5lO-I3-EcE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jes-uQ-mDq">
+                                <rect key="frame" x="36" y="395" width="348" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="The Global Petition To Protect The Amazon">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="YlV-tV-QdX"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="8Am-0i-oYx"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="AFK-LR-9Zo"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="DJW-lr-gaJ"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="RaX-rP-OAQ"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="6L8-dR-DVv"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="brz-a9-fd4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhU-wf-JQ3">
+                                <rect key="frame" x="36" y="482" width="348" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="The Global Petition To Protect The Amazon">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="nyi-Vc-LQ2"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="1Q5-lG-PYx"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="740-Xb-SPD"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="i5M-lh-kB5"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="z89-Pm-KjR"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="AIy-bJ-ItJ"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="8PM-E7-kCZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6y-Oq-1BO">
+                                <rect key="frame" x="36" y="572" width="348" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="The Global Petition To Protect The Amazon">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="60y-Zv-ujQ"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="0W6-EP-gIE"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="j7K-H4-xND"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="zhK-fW-cnr"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="GJr-8j-pUe"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="ptb-Uo-xvf"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="5nY-WB-pFz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T52-5N-LFb">
+                                <rect key="frame" x="36" y="527" width="348" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="The Global Petition To Protect The Amazon">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="yfm-PG-lJa"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Ice-YT-RQ0"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="Tli-LG-OAi"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="vlc-H2-YdQ"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="MgT-JS-dig"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="5XK-H4-X89"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="hPA-QI-bYY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIi-Mo-zBD">
+                                <rect key="frame" x="36" y="440" width="348" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="The Global Petition To Protect The Amazon">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="WFl-Pd-7cc"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="CzZ-tC-z7b"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="J9X-Bj-ZH2"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="LFq-eo-fVJ"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="aGH-R7-FpL"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="e9K-fS-92Z"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Ad7-v8-prw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiy-iG-hsg">
+                                <rect key="frame" x="36" y="609" width="348" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="The Global Petition To Protect The Amazon">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="dcV-au-S5e"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="mEB-Vy-zwU"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="qiw-6S-fs8"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="xDM-pV-fUQ"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="dEd-tE-lq6"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="12k-Ti-40H"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="irS-GZ-a9O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iI-To-zub">
+                                <rect key="frame" x="36" y="350" width="348" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="The Global Petition To Protect The Amazon">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="iMx-wB-Dlb"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="LFG-Mh-jX6"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="WfD-VB-INB"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="wf7-dZ-eUs"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="csA-Tc-wk9"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="CCu-R9-ZD6"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="22O-Sg-uXp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="UP9-HX-2jm"/>
@@ -540,7 +794,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10g-2M-o0p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1190" y="1506"/>
+            <point key="canvasLocation" x="-1191.304347826087" y="1505.3571428571429"/>
         </scene>
         <!--Climate Change Donate View Controller-->
         <scene sceneID="0xL-m8-jqT">
@@ -555,7 +809,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Climate Change">
+                                    <fragment content="The Environment">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="35" name="Avenir-Medium"/>
@@ -612,6 +866,78 @@
             </objects>
             <point key="canvasLocation" x="-423" y="1505"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="tUN-kV-QZR">
+            <objects>
+                <viewController id="oGQ-Ph-1M5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xlf-d4-8k5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Books" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHK-aO-tqv">
+                                <rect key="frame" x="37" y="114" width="341" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ZX-in-AQ7">
+                                <rect key="frame" x="37" y="65" width="285" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Resources Continued">
+                                        <attributes>
+                                            <font key="NSFont" size="30" name="Avenir-Book"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nu0-iy-gWY">
+                                <rect key="frame" x="39" y="172" width="336" height="661"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Down to Earth: Nature's Role in American History by Ted Steinberg
+
+
+How to Give Up Plastic: A Guide to Changing the World, One Plastic Bottle at a Time by Will McCallum
+
+
+Frontlines: Stories of Global Environmental Justice by Nick Meynen
+
+
+No One Is Too Small to Make a Difference by Greta Thunberg
+
+
+The Water Knife by Paolo Bacigalupi
+
+
+As Long as Grass Grows: The Indigenous Fight for Environmental Justice, From Colonization to Standing Rock by Dina Gilio-Whitaker
+
+
+The Uninhabitable Earth: Life After Warming by David Wallace-Wells
+
+
+This Is Not a Drill: An Extinction Rebellion Handbook by Extinction Rebellion
+
+
+Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Miller
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="IKq-dz-zzY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Pfg-Go-H0c"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LAG-xs-KZ8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1839.1304347826087" y="829.6875"/>
+        </scene>
         <!--Climate Change Resources View Controller-->
         <scene sceneID="iGF-DH-5Ig">
             <objects>
@@ -625,7 +951,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Climate Change">
+                                    <fragment content="The Environment">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="35" name="Avenir-Medium"/>
@@ -657,7 +983,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Instagram Accounts to Follow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXr-AU-nLp">
-                                <rect key="frame" x="20" y="649" width="344" height="42"/>
+                                <rect key="frame" x="20" y="597" width="344" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
@@ -680,7 +1006,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JpB-zo-Rg2">
-                                <rect key="frame" x="25" y="699" width="194" height="37"/>
+                                <rect key="frame" x="25" y="647" width="194" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <state key="normal" title="@humanrightscampaign">
@@ -695,7 +1021,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCQ-Qt-6np">
-                                <rect key="frame" x="25" y="734" width="162" height="37"/>
+                                <rect key="frame" x="25" y="682" width="162" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <state key="normal" title="@humanrightswatch">
@@ -709,24 +1035,8 @@
                                     <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="5QR-sS-dl0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhv-NO-0ix">
-                                <rect key="frame" x="250" y="698" width="94" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="@unwomen">
-                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="instaAcc2:" destination="S0o-SF-stI" eventType="touchUpInside" id="vT9-7A-bOf"/>
-                                    <action selector="instaAcc3:" destination="S0o-SF-stI" eventType="touchUpInside" id="HGp-It-f14"/>
-                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="2hV-5X-WEs"/>
-                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="Qwc-b1-m1p"/>
-                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="rXQ-MQ-tC4"/>
-                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="ckF-3R-LAj"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcz-pu-rNg">
-                                <rect key="frame" x="250" y="734" width="82" height="37"/>
+                                <rect key="frame" x="250" y="682" width="82" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <state key="normal" title="@amnesty">
@@ -747,14 +1057,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Books" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHK-aO-tqv">
-                                <rect key="frame" x="32" y="251" width="341" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.49911487100000002" green="0.60787981749999997" blue="0.59139329200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -791,23 +1093,42 @@
                                     <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="Ppx-sV-lcH"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nu0-iy-gWY">
-                                <rect key="frame" x="39" y="197" width="336" height="475"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9S0-6r-Qoe">
+                                <rect key="frame" x="61" y="744" width="292" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Down to Earth: Nature's Role in American History by Ted Steinberg
-How to Give Up Plastic: A Guide to Changing the World, One Plastic Bottle at a Time by Will McCallum
-Frontlines: Stories of Global Environmental Justice by Nick Meynen
-No One Is Too Small to Make a Difference by Greta Thunberg
-The Water Knife by Paolo Bacigalupi
-As Long as Grass Grows: The Indigenous Fight for Environmental Justice, From Colonization to Standing Rock by Dina Gilio-Whitaker
-The Uninhabitable Earth: Life After Warming by David Wallace-Wells
-This Is Not a Drill: An Extinction Rebellion Handbook by Extinction Rebellion
-Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Miller
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="see more">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" size="29" name="Avenir-Book"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="donateButton:" destination="z7s-8Q-QiF" eventType="touchUpInside" id="kBH-Wh-HZL"/>
+                                    <segue destination="oGQ-Ph-1M5" kind="show" id="TYx-5N-WEZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhv-NO-0ix">
+                                <rect key="frame" x="244" y="614" width="94" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="@unwomen">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="instaAcc2:" destination="S0o-SF-stI" eventType="touchUpInside" id="vT9-7A-bOf"/>
+                                    <action selector="instaAcc3:" destination="S0o-SF-stI" eventType="touchUpInside" id="HGp-It-f14"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="2hV-5X-WEs"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="Qwc-b1-m1p"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="rXQ-MQ-tC4"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="ckF-3R-LAj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="VLl-iJ-0TM"/>
@@ -973,7 +1294,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Climate Change">
+                                    <fragment content="The Environment">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="35" name="Avenir-Medium"/>
@@ -984,7 +1305,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Overview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqL-18-ID6">
-                                <rect key="frame" x="150" y="189" width="114" height="34"/>
+                                <rect key="frame" x="150" y="166" width="114" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
@@ -1051,9 +1372,9 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0f-Em-CGD">
-                                <rect key="frame" x="41" y="231" width="333" height="227"/>
+                                <rect key="frame" x="41" y="208" width="333" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">As rapid climate change is occurring on our planet, with the rise of global temperatures and long-term changes in the average weather patterns, humans have the responsibility and need to act quickly. Climate solutions ensure that there is a future for the next generations on Earth and are strongly related to social justice, due to the impactful wealth and racial disparities that exist.</string>
+                                <string key="text">As rapid climate change is occurring on our planet, with the rise of global temperatures and long-term changes in the average weather patterns, humans have the responsibility and need to act quickly: to save the planet and all beings that reside here. Climate solutions ensure that there is a future for the next generations on Earth and are strongly related to social justice, due to the impactful wealth and racial disparities that exist.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1083,7 +1404,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <constraint firstAttribute="height" constant="69" id="4HN-Pf-kAv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="29"/>
-                                <state key="normal" title="Climate Change">
+                                <state key="normal" title="The Environment">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>

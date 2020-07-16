@@ -22,7 +22,7 @@ class ClimateChangeResourcesViewController: UIViewController {
                     }
     }
     
-    @IBAction func article2(_ sender: Any) {
+    @IBAction func article2(_ sender: AnyObject) {
         if let url = URL (string: "https://www.nytimes.com/2020/07/14/climate/coastal-flooding-noaa.html") {
                     UIApplication.shared.open(url)
                     }
