@@ -1016,6 +1016,7 @@
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="petition1:" destination="JvB-CF-4y4" eventType="touchUpInside" id="Cgy-em-1xL"/>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="eTB-Y4-Qwc"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="HwS-X7-o2D"/>
                                     <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Phc-fi-OA5"/>
@@ -1053,6 +1054,8 @@ Emergency and Tackling of Climate Change
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="petition3:" destination="JvB-CF-4y4" eventType="touchUpInside" id="MWk-gU-Joy"/>
+                                    <action selector="petition4:" destination="JvB-CF-4y4" eventType="touchUpInside" id="6l2-Fm-WE6"/>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="hMu-t0-hMn"/>
                                     <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="OUa-tN-EVm"/>
                                     <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="l1m-1V-K5U"/>
@@ -1070,6 +1073,7 @@ Emergency and Tackling of Climate Change
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="petition2:" destination="JvB-CF-4y4" eventType="touchUpInside" id="Ht1-0i-gM2"/>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Iox-aN-zEn"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="VXD-QD-CZC"/>
                                     <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="dpq-if-JZQ"/>
@@ -1087,6 +1091,7 @@ Emergency and Tackling of Climate Change
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="petition6:" destination="JvB-CF-4y4" eventType="touchUpInside" id="A7S-Ds-8RQ"/>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="YlV-tV-QdX"/>
                                     <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="8Am-0i-oYx"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="AFK-LR-9Zo"/>
@@ -1104,6 +1109,7 @@ Emergency and Tackling of Climate Change
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="petition8:" destination="JvB-CF-4y4" eventType="touchUpInside" id="eds-nq-kkH"/>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="nyi-Vc-LQ2"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="1Q5-lG-PYx"/>
                                     <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="740-Xb-SPD"/>
@@ -1121,6 +1127,7 @@ Emergency and Tackling of Climate Change
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="petition10:" destination="JvB-CF-4y4" eventType="touchUpInside" id="e1Q-tg-Ffv"/>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="60y-Zv-ujQ"/>
                                     <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="0W6-EP-gIE"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="j7K-H4-xND"/>
@@ -1138,6 +1145,7 @@ Emergency and Tackling of Climate Change
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="petition9:" destination="JvB-CF-4y4" eventType="touchUpInside" id="0kO-rR-MR0"/>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="yfm-PG-lJa"/>
                                     <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Ice-YT-RQ0"/>
                                     <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="Tli-LG-OAi"/>
@@ -1155,6 +1163,7 @@ Emergency and Tackling of Climate Change
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="petition7:" destination="JvB-CF-4y4" eventType="touchUpInside" id="tUN-dg-Z94"/>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="WFl-Pd-7cc"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="CzZ-tC-z7b"/>
                                     <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="J9X-Bj-ZH2"/>
@@ -1172,6 +1181,7 @@ Emergency and Tackling of Climate Change
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="petition11:" destination="JvB-CF-4y4" eventType="touchUpInside" id="Hrg-PS-g94"/>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="dcV-au-S5e"/>
                                     <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="mEB-Vy-zwU"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="qiw-6S-fs8"/>
@@ -1189,6 +1199,7 @@ Emergency and Tackling of Climate Change
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="petition5:" destination="JvB-CF-4y4" eventType="touchUpInside" id="YRS-r7-afn"/>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="iMx-wB-Dlb"/>
                                     <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="LFG-Mh-jX6"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="WfD-VB-INB"/>
@@ -1203,6 +1214,9 @@ Emergency and Tackling of Climate Change
                         <viewLayoutGuide key="safeArea" id="UP9-HX-2jm"/>
                     </view>
                     <navigationItem key="navigationItem" id="YTV-2k-ASm"/>
+                    <connections>
+                        <outlet property="petition7" destination="B98-ld-hY4" id="8zN-MV-VKg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10g-2M-o0p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1316,35 +1330,27 @@ Emergency and Tackling of Climate Change
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nu0-iy-gWY">
-                                <rect key="frame" x="26" y="166" width="348" height="660"/>
+                                <rect key="frame" x="33" y="158" width="348" height="660"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Down to Earth: Nature's Role in American History by Ted Steinberg
+                                <mutableString key="text">Down to Earth: Nature's Role in American History by Ted Steinberg
 
 
 How to Give Up Plastic: A Guide to Changing the World, One Plastic Bottle at a Time by Will McCallum
 
-
 Frontlines: Stories of Global Environmental Justice by Nick Meynen
-
 
 No One Is Too Small to Make a Difference by Greta Thunberg
 
-
 The Water Knife by Paolo Bacigalupi
-
 
 As Long as Grass Grows: The Indigenous Fight for Environmental Justice, From Colonization to Standing Rock by Dina Gilio-Whitaker
 
-
 The Uninhabitable Earth: Life After Warming by David Wallace-Wells
-
 
 This Is Not a Drill: An Extinction Rebellion Handbook by Extinction Rebellion
 
-
-Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Miller
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Miller</mutableString>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1740,19 +1746,10 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fo-VH-sdL">
-                                <rect key="frame" x="150" y="209" width="114" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="Il6-Qw-wiN"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9WL-dQ-rex">
-                                <rect key="frame" x="37" y="251" width="341" height="201"/>
+                                <rect key="frame" x="37" y="242" width="341" height="241"/>
                                 <string key="text">#BlackLivesMatter - a Black-centered political will and movement building project - was founded in 2013 in response to the discharge of Trayvon Martin’s murderer by Alicia Garza, Patrisse Cullors, and Opal Tometi. The Black Lives Matter Foundation Inc. is a global organization in the US, UK, and Canada. They advocate for non-violent civil disobedience in protest against incidents of police brutality against African-American people. Here is the link to the organization’s website: https://blacklivesmatter.com/</string>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1822,6 +1819,15 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <segue destination="Ess-41-YIh" kind="show" id="9VR-Lh-Rn2"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Overview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fo-VH-sdL">
+                                <rect key="frame" x="150" y="200" width="114" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="Il6-Qw-wiN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -1850,7 +1856,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h9n-Is-NAO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="790" y="1621"/>
+            <point key="canvasLocation" x="789.85507246376812" y="1620.5357142857142"/>
         </scene>
         <!--Climate Change View Controller-->
         <scene sceneID="9V8-po-b5H">
@@ -1873,13 +1879,6 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                         </attributes>
                                     </fragment>
                                 </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Overview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqL-18-ID6">
-                                <rect key="frame" x="150" y="166" width="114" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3NM-SO-Wwa">
@@ -1950,6 +1949,13 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <segue destination="JvB-CF-4y4" kind="show" id="Zeh-vB-flV"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Overview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqL-18-ID6">
+                                <rect key="frame" x="154" y="178" width="106" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="CV2-v0-ufx"/>

@@ -10,6 +10,29 @@ import UIKit
 
 class ClimateChangePetitionViewController: UIViewController {
 
+    @IBAction func petition1(_ sender: Any) {
+    }
+    @IBAction func petition2(_ sender: Any) {
+    }
+    @IBAction func petition3(_ sender: Any) {
+    }
+    @IBAction func petition4(_ sender: Any) {
+    }
+    @IBAction func petition5(_ sender: Any) {
+    }
+    @IBAction func petition6(_ sender: Any) {
+        
+    }
+    @IBAction func petition7(_ sender: Any) {
+    }
+    @IBAction func petition8(_ sender: Any) {
+    }
+    @IBAction func petition9(_ sender: Any) {
+    }
+    @IBAction func petition10(_ sender: Any) {
+    }
+    @IBAction func petition11(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
