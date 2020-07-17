@@ -1525,7 +1525,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </state>
                                 <connections>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="BJn-ab-mAS"/>
-                                    <action selector="podcast1:" destination="weN-wu-3X5" eventType="touchUpInside" id="BYB-E4-BVw"/>
+                                    <action selector="podcast1:" destination="weN-wu-3X5" eventType="touchUpInside" id="bCC-OP-zsD"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="19u-wO-zOk"/>
                                     <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="45u-wo-OhU"/>
                                     <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="UBm-8o-OGP"/>
@@ -1543,7 +1543,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </state>
                                 <connections>
                                     <action selector="article1:" destination="weN-wu-3X5" eventType="touchUpInside" id="9jh-RE-FIy"/>
-                                    <action selector="article2:" destination="weN-wu-3X5" eventType="touchUpInside" id="8ew-18-Gl2"/>
+                                    <action selector="article2:" destination="weN-wu-3X5" eventType="touchUpInside" id="3vy-vT-DiK"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="S6a-9P-tPd"/>
                                     <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="aNw-ji-P9W"/>
                                     <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="gaM-Q8-ZL7"/>
@@ -1651,7 +1651,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </state>
                                 <connections>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="P3q-VQ-sym"/>
-                                    <action selector="podcast4:" destination="weN-wu-3X5" eventType="touchUpInside" id="A1c-dx-mPP"/>
+                                    <action selector="podcast4:" destination="weN-wu-3X5" eventType="touchUpInside" id="ZeR-U7-K5i"/>
                                     <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="KLw-d9-4lr"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="eY0-sA-3kO"/>
                                     <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="lnZ-6J-eg9"/>
@@ -1750,6 +1750,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 <connections>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="frp-77-OJR"/>
                                     <action selector="podcast4:" destination="weN-wu-3X5" eventType="touchUpInside" id="PdM-fI-jba"/>
+                                    <action selector="podcast5:" destination="weN-wu-3X5" eventType="touchUpInside" id="SWN-Nh-pWr"/>
                                     <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="3Fq-zh-tNY"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="TpA-Ht-i7K"/>
                                     <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="epL-wY-4ut"/>
@@ -1945,6 +1946,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </state>
                                 <connections>
                                     <action selector="resourcesButton:" destination="z7s-8Q-QiF" eventType="touchUpInside" id="cfJ-aD-0Qj"/>
+                                    <action selector="resourcesButton:" destination="22U-Gp-Upy" eventType="touchUpInside" id="k3a-yZ-glJ"/>
                                     <segue destination="weN-wu-3X5" kind="show" id="aS3-zY-5sm"/>
                                 </connections>
                             </button>
@@ -1965,6 +1967,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </state>
                                 <connections>
                                     <action selector="donateButton:" destination="z7s-8Q-QiF" eventType="touchUpInside" id="xqT-xR-wmw"/>
+                                    <action selector="donationsButton:" destination="22U-Gp-Upy" eventType="touchUpInside" id="LSc-AP-2Dt"/>
                                     <segue destination="Yaf-dg-EbT" kind="show" id="vtd-o1-8df"/>
                                 </connections>
                             </button>
@@ -1985,6 +1988,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </state>
                                 <connections>
                                     <action selector="petitionButton:" destination="z7s-8Q-QiF" eventType="touchUpInside" id="Wdq-4Q-NKL"/>
+                                    <action selector="petitionsButton:" destination="22U-Gp-Upy" eventType="touchUpInside" id="SXY-hK-v8X"/>
                                     <segue destination="JvB-CF-4y4" kind="show" id="Zeh-vB-flV"/>
                                 </connections>
                             </button>
@@ -2008,6 +2012,11 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                         <viewLayoutGuide key="safeArea" id="CV2-v0-ufx"/>
                     </view>
                     <navigationItem key="navigationItem" id="R47-8D-amQ"/>
+                    <connections>
+                        <outlet property="headerLabel" destination="Kv8-dt-KeW" id="do6-7l-nmF"/>
+                        <outlet property="infoLabel" destination="a0f-Em-CGD" id="JAJ-98-wPQ"/>
+                        <outlet property="subheaderLabel" destination="oqL-18-ID6" id="Rwc-8M-fBg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="clp-8D-QI5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2032,6 +2041,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="enviroButton:" destination="1yq-OX-HLC" eventType="touchUpInside" id="wKb-C1-Zlz"/>
                                     <segue destination="22U-Gp-Upy" kind="show" id="Ddq-en-1jU"/>
                                 </connections>
                             </button>
@@ -2046,6 +2056,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="hrButton:" destination="1yq-OX-HLC" eventType="touchUpInside" id="QyE-Xk-AJl"/>
                                     <segue destination="z7s-8Q-QiF" kind="show" id="9Ql-Mw-pM6"/>
                                 </connections>
                             </button>
@@ -2060,6 +2071,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="blmButton:" destination="1yq-OX-HLC" eventType="touchUpInside" id="bd1-Qs-xhf"/>
                                     <segue destination="tUW-wG-J0o" kind="show" id="4QA-Mk-YFF"/>
                                 </connections>
                             </button>
@@ -2070,7 +2082,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a topic, EDUCATE YOURSELF, be part of the solution" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pn-jO-f0f">
-                                <rect key="frame" x="20" y="232" width="374" height="149"/>
+                                <rect key="frame" x="20" y="245" width="374" height="149"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="32"/>
                                 <nil key="textColor"/>
@@ -2095,6 +2107,10 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                         <viewLayoutGuide key="safeArea" id="y7f-o8-olt"/>
                     </view>
                     <navigationItem key="navigationItem" id="a5M-GQ-Muu"/>
+                    <connections>
+                        <outlet property="infoLabel" destination="8pn-jO-f0f" id="cJL-pq-Zae"/>
+                        <outlet property="logoImage" destination="DPE-40-Q94" id="t4c-pr-D3J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Z2-jZ-R3W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

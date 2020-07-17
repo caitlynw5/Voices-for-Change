@@ -10,6 +10,21 @@ import UIKit
 
 class ClimateChangeViewController: UIViewController {
 
+    @IBOutlet weak var headerLabel: UILabel!
+    
+    @IBOutlet weak var subheaderLabel: UILabel!
+    
+    @IBOutlet weak var infoLabel: UILabel!
+    
+    
+    @IBAction func resourcesButton(_ sender: Any) {
+    }
+    
+    @IBAction func petitionsButton(_ sender: Any) {
+    }
+    
+    @IBAction func donationsButton(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

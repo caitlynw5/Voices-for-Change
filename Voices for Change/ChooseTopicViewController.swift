@@ -10,6 +10,19 @@ import UIKit
 
 class ChooseTopicViewController: UIViewController {
 
+    @IBOutlet weak var logoImage: UIImageView!
+    
+    @IBOutlet weak var infoLabel: UILabel!
+    
+    @IBAction func blmButton(_ sender: Any) {
+    }
+    
+    @IBAction func enviroButton(_ sender: Any) {
+    }
+    
+    @IBAction func hrButton(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

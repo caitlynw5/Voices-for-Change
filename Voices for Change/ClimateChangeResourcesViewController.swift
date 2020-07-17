@@ -26,6 +26,7 @@ class ClimateChangeResourcesViewController: UIViewController {
                     }
     }
     
+
     @IBAction func article2(_ sender: AnyObject) {
         if let url = URL (string: "https://www.nytimes.com/2020/07/14/climate/coastal-flooding-noaa.html") {
                     UIApplication.shared.open(url)
@@ -38,10 +39,11 @@ class ClimateChangeResourcesViewController: UIViewController {
                            }
     }
     
+  
     @IBAction func podcast1(_ sender: AnyObject) {
-        if let url = URL (string: "https://www.americaadapts.org") {
-                           UIApplication.shared.open(url)
-                           }
+    if let url = URL (string: "https://www.americaadapts.org") {
+                       UIApplication.shared.open(url)
+                       }
     }
     
     @IBAction func podcast2(_ sender: AnyObject) {
@@ -56,16 +58,17 @@ class ClimateChangeResourcesViewController: UIViewController {
                            }
     }
     
+  
     @IBAction func podcast4(_ sender: AnyObject) {
-        if let url = URL (string: "https://www.mothersofinvention.online") {
-                           UIApplication.shared.open(url)
-                           }
+    if let url = URL (string: "https://www.mothersofinvention.online") {
+                       UIApplication.shared.open(url)
+                       }
     }
     
     @IBAction func podcast5(_ sender: AnyObject) {
-        if let url = URL (string: "https://www.wwf.org.au/what-we-do/climate/climate-finance/climate-cash-podcast-series#gs.az7jdy") {
-                           UIApplication.shared.open(url)
-                           }
+    if let url = URL (string: "https://www.wwf.org.au/what-we-do/climate/climate-finance/climate-cash-podcast-series#gs.az7jdy") {
+                       UIApplication.shared.open(url)
+                       }
     }
     
     @IBAction func podcast6(_ sender: AnyObject) {
