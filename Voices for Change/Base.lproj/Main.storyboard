@@ -789,7 +789,6 @@
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="ub2-F6-vYc"/>
                                     <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="thI-0V-GcC"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="cXC-47-yNx"/>
                                 </connections>
@@ -802,9 +801,6 @@
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="xbQ-iK-w1Q"/>
-                                    <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="Mh3-jQ-daD"/>
-                                    <action selector="petition3:" destination="vnC-wA-cbg" eventType="touchUpInside" id="UJu-KQ-0JS"/>
                                     <action selector="petition5:" destination="vnC-wA-cbg" eventType="touchUpInside" id="IQh-p5-vj4"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="XfT-T5-YnP"/>
                                 </connections>
@@ -817,9 +813,6 @@
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="XEc-od-9rx"/>
-                                    <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="UQp-Xq-lVe"/>
-                                    <action selector="petition3:" destination="vnC-wA-cbg" eventType="touchUpInside" id="cGb-A2-toC"/>
                                     <action selector="petition4:" destination="vnC-wA-cbg" eventType="touchUpInside" id="kRQ-xD-aT1"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="Hpq-7d-bwU"/>
                                 </connections>
@@ -834,9 +827,6 @@
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="DtX-fC-tEj"/>
-                                    <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="4jA-YE-40N"/>
-                                    <action selector="petition3:" destination="vnC-wA-cbg" eventType="touchUpInside" id="qYp-zX-pFz"/>
                                     <action selector="petition6:" destination="vnC-wA-cbg" eventType="touchUpInside" id="pCk-jF-KkL"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="cY9-OP-GV2"/>
                                 </connections>
@@ -851,8 +841,6 @@
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="pM1-AN-yZe"/>
-                                    <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="Oey-YX-mqK"/>
                                     <action selector="petition3:" destination="vnC-wA-cbg" eventType="touchUpInside" id="zU3-wB-E4k"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="kLa-7I-0hZ"/>
                                 </connections>
@@ -2122,7 +2110,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </state>
                                 <connections>
                                     <action selector="donateButton:" destination="z7s-8Q-QiF" eventType="touchUpInside" id="mld-J2-QCp"/>
-                                    <segue destination="Kn0-lP-0IV" kind="show" id="Yuo-Ne-myA"/>
+                                    <segue destination="Kn0-lP-0IV" kind="show" id="yNz-yH-dq0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhQ-7v-M99">
@@ -2939,7 +2927,6 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                     <connections>
                         <outlet property="donationsLabel" destination="xFr-Vu-5qV" id="vfD-Xc-ucr"/>
                         <outlet property="humRightsTitle" destination="xMW-0G-boQ" id="HIU-ev-v2T"/>
-                        <outlet property="sh1Link1" destination="r9r-AW-ygj" id="hap-tv-UYn"/>
                         <outlet property="subHead1" destination="XuR-QV-pdO" id="lBe-md-N91"/>
                         <outlet property="subHead2" destination="b8j-FD-b1P" id="lrY-8e-Hm6"/>
                         <outlet property="subHead3" destination="uq6-gk-dTu" id="AWO-0D-LL0"/>
