@@ -987,7 +987,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Brv-o6-zve">
-                                <rect key="frame" x="40" y="173" width="348" height="37"/>
+                                <rect key="frame" x="35" y="181" width="348" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <state key="normal" title="The Global Petition To Protect The Amazon">
@@ -1005,13 +1005,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7EE-bJ-NFg">
-                                <rect key="frame" x="102" y="260" width="224" height="37"/>
+                                <rect key="frame" x="68" y="248" width="275" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="Caribe Sur Libre De Plástico">
+                                <state key="normal" title="Carbon Neutral Costa Rica Project">
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="petition3:" destination="JvB-CF-4y4" eventType="touchUpInside" id="5ho-7E-XyX"/>
                                     <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="CaV-WZ-xkM"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="S6H-pC-qbx"/>
                                     <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="UNC-39-6RX"/>
@@ -1022,11 +1023,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zb-pO-VRj">
-                                <rect key="frame" x="9" y="281" width="412" height="61"/>
+                                <rect key="frame" x="10" y="280" width="394" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <state key="normal">
-                                    <string key="title">Children demand Declaration of a National Climate
+                                    <string key="title">India Declaration of National Climate Emergency
 Emergency and Tackling of Climate Change
 </string>
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1044,7 +1045,7 @@ Emergency and Tackling of Climate Change
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G7W-Ng-5at">
-                                <rect key="frame" x="65" y="220" width="306" height="37"/>
+                                <rect key="frame" x="57" y="213" width="306" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <state key="normal" title="Put climate change lessons in schools!">
@@ -1062,10 +1063,10 @@ Emergency and Tackling of Climate Change
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jes-uQ-mDq">
-                                <rect key="frame" x="36" y="395" width="348" height="37"/>
+                                <rect key="frame" x="46" y="353" width="321" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="The Global Petition To Protect The Amazon">
+                                <state key="normal" title="Supermarkets Reduce Waste and Plastic">
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -1080,10 +1081,10 @@ Emergency and Tackling of Climate Change
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhU-wf-JQ3">
-                                <rect key="frame" x="36" y="482" width="348" height="37"/>
+                                <rect key="frame" x="106" y="423" width="208" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="The Global Petition To Protect The Amazon">
+                                <state key="normal" title="Greenpeace Organization">
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -1097,47 +1098,11 @@ Emergency and Tackling of Climate Change
                                     <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="8PM-E7-kCZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6y-Oq-1BO">
-                                <rect key="frame" x="36" y="572" width="348" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="The Global Petition To Protect The Amazon">
-                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="petition10:" destination="JvB-CF-4y4" eventType="touchUpInside" id="e1Q-tg-Ffv"/>
-                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="60y-Zv-ujQ"/>
-                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="0W6-EP-gIE"/>
-                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="j7K-H4-xND"/>
-                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="zhK-fW-cnr"/>
-                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="GJr-8j-pUe"/>
-                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="ptb-Uo-xvf"/>
-                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="5nY-WB-pFz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T52-5N-LFb">
-                                <rect key="frame" x="36" y="527" width="348" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="The Global Petition To Protect The Amazon">
-                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="petition9:" destination="JvB-CF-4y4" eventType="touchUpInside" id="0kO-rR-MR0"/>
-                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="yfm-PG-lJa"/>
-                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Ice-YT-RQ0"/>
-                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="Tli-LG-OAi"/>
-                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="vlc-H2-YdQ"/>
-                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="MgT-JS-dig"/>
-                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="5XK-H4-X89"/>
-                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="hPA-QI-bYY"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIi-Mo-zBD">
-                                <rect key="frame" x="36" y="440" width="348" height="37"/>
+                                <rect key="frame" x="53" y="391" width="307" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="The Global Petition To Protect The Amazon">
+                                <state key="normal" title="Sustainable Tourism on Boracay Island">
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -1151,29 +1116,11 @@ Emergency and Tackling of Climate Change
                                     <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Ad7-v8-prw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiy-iG-hsg">
-                                <rect key="frame" x="36" y="609" width="348" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="The Global Petition To Protect The Amazon">
-                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="petition11:" destination="JvB-CF-4y4" eventType="touchUpInside" id="Hrg-PS-g94"/>
-                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="dcV-au-S5e"/>
-                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="mEB-Vy-zwU"/>
-                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="qiw-6S-fs8"/>
-                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="xDM-pV-fUQ"/>
-                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="dEd-tE-lq6"/>
-                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="12k-Ti-40H"/>
-                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="irS-GZ-a9O"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iI-To-zub">
-                                <rect key="frame" x="36" y="350" width="348" height="37"/>
+                                <rect key="frame" x="89" y="316" width="233" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="The Global Petition To Protect The Amazon">
+                                <state key="normal" title="EU transparency for products">
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -1185,6 +1132,42 @@ Emergency and Tackling of Climate Change
                                     <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="csA-Tc-wk9"/>
                                     <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="CCu-R9-ZD6"/>
                                     <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="22O-Sg-uXp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T52-5N-LFb">
+                                <rect key="frame" x="70" y="455" width="270" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="World Wildlife Fund Organization">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="petition9:" destination="JvB-CF-4y4" eventType="touchUpInside" id="0kO-rR-MR0"/>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="yfm-PG-lJa"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="Ice-YT-RQ0"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="Tli-LG-OAi"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="vlc-H2-YdQ"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="MgT-JS-dig"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="5XK-H4-X89"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="hPA-QI-bYY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6y-Oq-1BO">
+                                <rect key="frame" x="83" y="489" width="245" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="Nat. Wildlife Fund Take Action">
+                                    <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="petition10:" destination="JvB-CF-4y4" eventType="touchUpInside" id="e1Q-tg-Ffv"/>
+                                    <action selector="podcast1:" destination="S0o-SF-stI" eventType="touchUpInside" id="60y-Zv-ujQ"/>
+                                    <action selector="subHead1Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="0W6-EP-gIE"/>
+                                    <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="j7K-H4-xND"/>
+                                    <action selector="subHead1Link1:" destination="khM-ZU-mIX" eventType="touchUpInside" id="zhK-fW-cnr"/>
+                                    <action selector="subHead1Link2:" destination="khM-ZU-mIX" eventType="touchUpInside" id="GJr-8j-pUe"/>
+                                    <action selector="subHead2Link2:" destination="S0o-SF-stI" eventType="touchUpInside" id="ptb-Uo-xvf"/>
+                                    <action selector="subHead3Link1:" destination="S0o-SF-stI" eventType="touchUpInside" id="5nY-WB-pFz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1311,7 +1294,6 @@ Emergency and Tackling of Climate Change
                                 <rect key="frame" x="33" y="158" width="348" height="660"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <mutableString key="text">Down to Earth: Nature's Role in American History by Ted Steinberg
-
 
 How to Give Up Plastic: A Guide to Changing the World, One Plastic Bottle at a Time by Will McCallum
 
@@ -1891,14 +1873,6 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <segue destination="Yaf-dg-EbT" kind="show" id="vtd-o1-8df"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0f-Em-CGD">
-                                <rect key="frame" x="41" y="208" width="333" height="227"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">As rapid climate change is occurring on our planet, with the rise of global temperatures and long-term changes in the average weather patterns, humans have the responsibility and need to act quickly: to save the planet and all beings that reside here. Climate solutions ensure that there is a future for the next generations on Earth and are strongly related to social justice, due to the impactful wealth and racial disparities that exist.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fLD-1O-D2Q">
                                 <rect key="frame" x="61" y="575" width="292" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1923,6 +1897,14 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 <rect key="frame" x="154" y="178" width="106" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0f-Em-CGD">
+                                <rect key="frame" x="37" y="204" width="333" height="272"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">As rapid climate change is occurring on our planet, with the rise of global temperatures and long-term changes in the average weather patterns, humans have the responsibility and need to act quickly: to save the planet and all beings that reside here. Climate solutions ensure that there is a future for the next generations on Earth and are strongly related to social justice, due to the impactful wealth and racial disparities that exist.</string>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
