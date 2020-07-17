@@ -659,24 +659,21 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="da6-rE-0hA">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="da6-rE-0hA">
                                 <rect key="frame" x="74" y="734.66666666666663" width="266" height="50.333333333333371"/>
                                 <color key="backgroundColor" red="0.24591094259999999" green="0.48255443570000001" blue="0.28269910809999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50.333333333333371" id="M21-24-pjZ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="28"/>
-                                <state key="normal" title="get started">
+                                <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="get started">
                                             <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <font key="NSFont" size="28" name="Avenir-Book"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fpc-ko-nJQ"/>
@@ -686,8 +683,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Caitlyn shared a drawing with you 10-1" translatesAutoresizingMaskIntoConstraints="NO" id="fAN-88-ua5">
                                 <rect key="frame" x="20" y="80" width="364" height="277"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Voice for Change Images" translatesAutoresizingMaskIntoConstraints="NO" id="LBR-0X-TJa">
+                                <rect key="frame" x="74" y="406" width="274" height="272"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tib-rL-wyl">
-                                <rect key="frame" x="170" y="653.66666666666663" width="74" height="62"/>
+                                <rect key="frame" x="170" y="658" width="74" height="62"/>
                                 <attributedString key="attributedText">
                                     <fragment content="you">
                                         <attributes>
@@ -697,9 +697,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Voice for Change Images" translatesAutoresizingMaskIntoConstraints="NO" id="LBR-0X-TJa">
-                                <rect key="frame" x="74" y="406" width="274" height="272"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.90978878740000002" green="0.9255838394" blue="0.89674538370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -792,7 +789,6 @@
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="ub2-F6-vYc"/>
                                     <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="thI-0V-GcC"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="cXC-47-yNx"/>
                                 </connections>
@@ -805,9 +801,6 @@
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="xbQ-iK-w1Q"/>
-                                    <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="Mh3-jQ-daD"/>
-                                    <action selector="petition3:" destination="vnC-wA-cbg" eventType="touchUpInside" id="UJu-KQ-0JS"/>
                                     <action selector="petition5:" destination="vnC-wA-cbg" eventType="touchUpInside" id="IQh-p5-vj4"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="XfT-T5-YnP"/>
                                 </connections>
@@ -820,9 +813,6 @@
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="XEc-od-9rx"/>
-                                    <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="UQp-Xq-lVe"/>
-                                    <action selector="petition3:" destination="vnC-wA-cbg" eventType="touchUpInside" id="cGb-A2-toC"/>
                                     <action selector="petition4:" destination="vnC-wA-cbg" eventType="touchUpInside" id="kRQ-xD-aT1"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="Hpq-7d-bwU"/>
                                 </connections>
@@ -837,9 +827,6 @@
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="DtX-fC-tEj"/>
-                                    <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="4jA-YE-40N"/>
-                                    <action selector="petition3:" destination="vnC-wA-cbg" eventType="touchUpInside" id="qYp-zX-pFz"/>
                                     <action selector="petition6:" destination="vnC-wA-cbg" eventType="touchUpInside" id="pCk-jF-KkL"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="cY9-OP-GV2"/>
                                 </connections>
@@ -854,8 +841,6 @@
                                     <color key="titleColor" red="0.2590533793" green="0.51170396799999995" blue="0.29800665380000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="petition1:" destination="vnC-wA-cbg" eventType="touchUpInside" id="pM1-AN-yZe"/>
-                                    <action selector="petition2:" destination="vnC-wA-cbg" eventType="touchUpInside" id="Oey-YX-mqK"/>
                                     <action selector="petition3:" destination="vnC-wA-cbg" eventType="touchUpInside" id="zU3-wB-E4k"/>
                                     <action selector="subHead1Link1:" destination="Kn0-lP-0IV" eventType="touchUpInside" id="kLa-7I-0hZ"/>
                                 </connections>
@@ -887,19 +872,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="APj-MH-GX5">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APj-MH-GX5">
                                 <rect key="frame" x="20" y="581" width="374" height="81"/>
                                 <color key="backgroundColor" red="0.25781530139999997" green="0.50609546900000002" blue="0.29363876579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="browse topics">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="30" name="Avenir-Book"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="browse topics">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="button2:" destination="thD-YO-WxP" eventType="touchUpInside" id="dpK-ef-aCF"/>
@@ -1511,7 +1489,6 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="donateButton:" destination="z7s-8Q-QiF" eventType="touchUpInside" id="kBH-Wh-HZL"/>
                                     <action selector="moreResourcesSegue:" destination="weN-wu-3X5" eventType="touchUpInside" id="ODH-IG-7GD"/>
                                     <segue destination="oGQ-Ph-1M5" kind="show" id="TYx-5N-WEZ"/>
                                 </connections>
@@ -1729,21 +1706,14 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kea-ft-6w8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Black Lives Matter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kea-ft-6w8">
                                 <rect key="frame" x="37" y="119" width="341" height="62"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="62" id="Cd2-4h-Dnc"/>
                                 </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Black Lives Matter">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="35" name="Avenir-Medium"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9WL-dQ-rex">
@@ -2022,8 +1992,9 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                     <constraint firstAttribute="height" constant="257" id="RAi-xR-THw"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Choose a topic, EDUCATE YOURSELF, be part of the solution" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pn-jO-f0f">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a topic, EDUCATE YOURSELF, be part of the solution" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pn-jO-f0f">
                                 <rect key="frame" x="20" y="232" width="374" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2034,7 +2005,6 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                             <constraint firstItem="YlH-hu-Ncd" firstAttribute="top" secondItem="8sz-jS-NQx" secondAttribute="bottom" constant="48" id="06p-EU-8UF"/>
                             <constraint firstItem="DPE-40-Q94" firstAttribute="leading" secondItem="y7f-o8-olt" secondAttribute="leading" constant="44" id="BB8-bQ-ayt"/>
                             <constraint firstItem="8sz-jS-NQx" firstAttribute="leading" secondItem="YlH-hu-Ncd" secondAttribute="leading" id="Dcj-Si-KzB"/>
-                            <constraint firstItem="8pn-jO-f0f" firstAttribute="top" secondItem="y7f-o8-olt" secondAttribute="top" constant="232" id="De1-Ps-hoE"/>
                             <constraint firstItem="DPE-40-Q94" firstAttribute="centerX" secondItem="8sz-jS-NQx" secondAttribute="centerX" id="EUr-zU-zUh"/>
                             <constraint firstItem="y7f-o8-olt" firstAttribute="bottom" secondItem="qqg-8l-U8t" secondAttribute="bottom" constant="98" id="cJG-og-Wie"/>
                             <constraint firstItem="y7f-o8-olt" firstAttribute="trailing" secondItem="DPE-40-Q94" secondAttribute="trailing" constant="50" id="lit-zf-nUf"/>
@@ -2044,8 +2014,6 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                             <constraint firstItem="qqg-8l-U8t" firstAttribute="top" secondItem="YlH-hu-Ncd" secondAttribute="bottom" constant="50" id="qr2-ts-YHT"/>
                             <constraint firstItem="8sz-jS-NQx" firstAttribute="trailing" secondItem="YlH-hu-Ncd" secondAttribute="trailing" id="sQr-Xf-khk"/>
                             <constraint firstItem="YlH-hu-Ncd" firstAttribute="leading" secondItem="qqg-8l-U8t" secondAttribute="leading" id="wa4-PB-9n2"/>
-                            <constraint firstItem="8pn-jO-f0f" firstAttribute="leading" secondItem="du7-2G-LC9" secondAttribute="leadingMargin" id="yAC-0A-kC8"/>
-                            <constraint firstItem="8sz-jS-NQx" firstAttribute="top" secondItem="8pn-jO-f0f" secondAttribute="bottom" constant="21" id="zGz-zL-zQw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="y7f-o8-olt"/>
                     </view>
@@ -2063,22 +2031,14 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCt-Lk-i7u">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Human Rights" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCt-Lk-i7u">
                                 <rect key="frame" x="37" y="111" width="341" height="68"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="68" id="bOY-gx-TWx"/>
                                 </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Human Rights">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="35" name="Avenir-Medium"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sf3-nf-Tk1">
                                 <rect key="frame" x="37" y="238" width="341" height="207"/>
@@ -2156,7 +2116,7 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </state>
                                 <connections>
                                     <action selector="donateButton:" destination="z7s-8Q-QiF" eventType="touchUpInside" id="mld-J2-QCp"/>
-                                    <segue destination="Kn0-lP-0IV" kind="show" id="Yuo-Ne-myA"/>
+                                    <segue destination="Kn0-lP-0IV" kind="show" id="yNz-yH-dq0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhQ-7v-M99">
@@ -2463,19 +2423,12 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDo-eE-eZq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Human Rights" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDo-eE-eZq">
                                 <rect key="frame" x="33" y="23" width="341" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Human Rights">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="35" name="Avenir-Medium"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fI1-k7-kpO">
@@ -2563,19 +2516,12 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVh-8x-F5t">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Human Rights" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVh-8x-F5t">
                                 <rect key="frame" x="37" y="68" width="341" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25788915159999998" green="0.51001709699999997" blue="0.29760420319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Human Rights">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="35" name="Avenir-Medium"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0M-fl-EQ9">
@@ -2987,7 +2933,6 @@ Storming the Wall: Climate Change, Migration, and Homeland Security by Todd Mill
                     <connections>
                         <outlet property="donationsLabel" destination="xFr-Vu-5qV" id="vfD-Xc-ucr"/>
                         <outlet property="humRightsTitle" destination="xMW-0G-boQ" id="HIU-ev-v2T"/>
-                        <outlet property="sh1Link1" destination="r9r-AW-ygj" id="hap-tv-UYn"/>
                         <outlet property="subHead1" destination="XuR-QV-pdO" id="lBe-md-N91"/>
                         <outlet property="subHead2" destination="b8j-FD-b1P" id="lrY-8e-Hm6"/>
                         <outlet property="subHead3" destination="uq6-gk-dTu" id="AWO-0D-LL0"/>
